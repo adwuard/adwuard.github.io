@@ -24,19 +24,19 @@ author:
   avatar           : "hsuan-han-han-bio-photo.jpg"
   name             : "Hsuan Han Lai"
   pronouns         : "He/Him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Product Engineer Lead at Vibe Inc., driven by a curious mind and a passionate heart."
   location         : "Hangzhou, China"
-  employer         : "Vibe Inc"
-  uri              : "https://www.vibe.us"
+  employer         : "Vibe Inc."
+  uri              : # uri
   email            : "hsuan.han.lai@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL - Update with the correct link to your profile
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
@@ -55,7 +55,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : hsuanhanlai
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
