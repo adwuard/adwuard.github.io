@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "hsuan-han-han-bio-photo.jpg"
-  name             : "Hsuan Han Lai"
+  name             : "Hsuan Han Lai (Edward Lai)"
   pronouns         : "He/Him"  
   bio              : "Product Engineer Lead at Vibe Inc., driven by a curious mind and a passionate heart."
   location         : "Hangzhou, China"
@@ -223,6 +223,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -280,6 +283,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 
 # Sass/SCSS
