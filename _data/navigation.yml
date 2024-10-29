@@ -13,10 +13,18 @@ main:
 
   # - title: "Teaching"
     # url: /teaching/    
-    
   - title: "Portfolio"
-    url: /portfolio/
+    url: /
+    
+  # - title: "Portfolio"
+    # url: /portfolio/
         
+  - title: "Weekend Projects"
+    url: /projects/
+  
+  - title: "Shop"
+    url: https://edslab.myshopify.com/
+    external: true
   # - title: "Blog Posts"
     # url: /year-archive/
     
