@@ -22,7 +22,7 @@ Part of my job is taking **product ideas from scratch and turning them into real
 # Vibe Smart Board [55/75/Pro] Series
 The **Vibe Smart Board** is Vibe's flagship product line. It offers an all-in-one whiteboarding experience with a flexible ecosystem, empowering teams to collaborate effectively.
 
-<img src="https://oydqrbee757owwwj.public.blob.vercel-storage.com/desktop_s1-gSSUYKiHEzm8MgVuNgZWDUN54eQKlh.webp" style="height: 350px;" />
+<img src="images/about/desktop_s1.webp" style="height: 350px;" />
 
 ### Contributions:
 - Designed the **hardware architecture** for the products, creating unique hardware/software integration solutions unlike any competitors.
@@ -57,7 +57,7 @@ This one really tiny, but mighty and powerful camera. The camera has **4K images
 ---
 # Voice Products 
 
-<img src="https://oydqrbee757owwwj.public.blob.vercel-storage.com/image%20(4)-5DPVqeb2nl2qs60qmm0y9x0hRXNTqL.webp" style="height: 250px;" />
+<img src="images/about/c1a-audio.png" style="height: 250px;" />
 
 Developing **speech processing algorithms** for enhanced audio experiences in meeting rooms.
 
@@ -88,7 +88,7 @@ We're tackling challenging problems like:
 ---
 # Vibe Tap
 <div style="display: flex; gap: 10px;">
-  <img src="https://oydqrbee757owwwj.public.blob.vercel-storage.com/image-LipP0EZq7U13Rfc0B6qzliB8Zz3SPY.webp" style="height: 250px;" /><img src="https://oydqrbee757owwwj.public.blob.vercel-storage.com/wrap_img-wRhfTct2SYbS7p7739lirh75YDZTtd.webp" style="height: 250px;" />
+  <img src="images/about/vibe-tap.webp" style="height: 250px;" /><img src="images/about/vibe-tap-casting.webp" style="height: 250px;" />
 </div>
 
 **Vibe Tap** is a wireless casting device that simplifies screen sharing from any device you bring to a meeting. It also offers **touch-back functionality**, allowing you to interact with your PC directly from the whiteboard.
