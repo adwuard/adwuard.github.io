@@ -17,7 +17,7 @@ Designing new mic array hardware and new algorithms is challenging. Microphones 
 When designing new mic arrays and algorithms, deploying algorithms into SoCs/MCUs often involves cross-compiling and a more complicated debugging workflow when dealing with real-time audio.
 
 ```text
-DSP device audio DSP is hard to debug: 
+Audio DSP on SoCs or MCU is hard to debug: 
 Multi-Channel PDM Mics -> I2S -> SoCs [processing] -> Enhanced Audio
 ```
 
