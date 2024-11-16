@@ -51,7 +51,7 @@ This one really tiny, but mighty and powerful camera. The camera has **4K images
 **Software:**
 - Building **low-latency video audio algorithm** and services
 - **Firmware engineering**, Kernel BSP, Fast-booting with minimal image, OTA protocol, and system performance optimization for realtime system.
-- Experience with **USB development** and debugging, emulating USB gadgets with UVC/UAC/HID/Custom Protocols.
+- Experience with **USB development** and debugging, emulating USB gadgets with UVC/UAC/HID/Custom Vendor Specific Protocols.
 
 <!--  -->
 ---
@@ -62,8 +62,8 @@ This one really tiny, but mighty and powerful camera. The camera has **4K images
 Developing **speech processing algorithms** for enhanced audio experiences in meeting rooms.
 
 We're tackling challenging problems like:
-- **Acoustic hardware design**.
 - Continuously developing and improving **speech enhancement** and **AI powered algorithms**.
+- **Acoustic hardware design**.
 - **Manufacturing consistency** and testing.
 - Building an **audio lab** for measurable metrics, accelerating the development process.
 
@@ -112,7 +112,7 @@ At Vibe, we build our operating system on Google's **ChromiumOS**. It offers the
 An example of my work is on the **CRAS audio service**, integrating AI-powered speech and video enhancements, elevating conference meeting experiences.
 
 ### Contributions:
-- **OS development** and Kernel BSPs.
+- **OS development** and Kernel BSPs. Building custom OS features. 
 - **ChromiumOS CRAS/ALSA**: Experience in full-stack audio pipeline development and debugging, providing low-latency audio/video features.
 - **Camera stack** and video processing pipeline development.
 - Built full-stack **OTA update** and **enterprise policy management services**.
