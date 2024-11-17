@@ -3,9 +3,17 @@ title: "A Tracker Synthsizer"
 excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/cnc-build/2.jpg'>"
 collection: projects
 date: 2024-07-20
+Tags:
+  - Synthesizer
+  - Teensy 4.1
+  - RP2040
+  - CNC Machining
+  - DIY Electronics
+  - Open Source Hardware
+  - Music Production
+  - Embedded Systems
+  - Custom Keyboards
 ---
-
-Topics: `Synthesizer` `Tracker Keyboard` `Teensy 4.1` `RP2040` `CNC Machining` `DIY Electronics` `Open Source Hardware` `Music Production` `Embedded Systems` `Custom Keyboards`
 
 # Now Open-Sourced!
 [![GitHub](https://img.shields.io/badge/GitHub-TrackerKB-blue?logo=github)](https://github.com/adwuard/TrackerKB)   
