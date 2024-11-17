@@ -3,9 +3,15 @@ title: "USB Mic-Array for Rapid Prototyping"
 excerpt: "Multi-Channel USB Mic for faster and easier hardware and algorithm prototyping.<br/><img src='/images/projects/mic_array/1.jpg'>"
 collection: projects
 date: 2023-08-24
+tags:
+  - Speech Processing
+  - Speech Recognition
+  - Hardware Design
+  - USB Development
+  - USB UAC 1.0
+  - STM32
+  - Low-Latency Audi
 ---
-
-Topics: `Speech Processing` `Speech Recognition` `Hardware Design` `USB Development` `USB UAC 1.0` `STM32` `Low-Latency Audio`
 
 # Overview
 When building a smart audio product, a mic array is often needed to offer better performance and audio enhancements such as beam-forming algorithms to improve far-field audio pickup.
