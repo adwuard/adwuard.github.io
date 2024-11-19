@@ -15,9 +15,6 @@ tags:
   - Robot Gripper
 ---
 
-
-
-
 # Overview
 <img src="/images/projects/AdaptiveGripper/1.jpg" width="650">  
 I have always wanted to build my own power gripper. Selecting a good gripper is not an easy task. The first consideration is its capability and intended use. Some grippers are suitable for small, delicate tasks, while others are designed for grabbing larger, heavier objects. Additionally, some grippers, like the Robotiq Grippers, come with torque feedback for more accurate gripping force. There is no one-size-fits-all solution. Most available options are either too expensive or not adaptive enough to cover a wide range of scenarios and applications. This is why I am designing my own gripper. This should be an enjoyable and rewarding project.
