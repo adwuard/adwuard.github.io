@@ -1,6 +1,6 @@
 ---
 title: "xSynth-Go: An Portable FPGA powered Synthsizer"
-excerpt: "Introducing xSynth-Go, an open-source FPGA-powered synthesizer. This platform is perfect for learning FPGA DSP and signal processing. <br/><img src='/images/projects/xsynthgo/1.jpg' width='550'>"
+excerpt: "Introducing xSynth-Go, an open-source FPGA-powered synthesizer. This platform is perfect for learning FPGA DSP and signal processing. <br/><img src='/images/projects/xsynthgo/1.jpg' width='350'>"
 collection: projects
 date: 2024-06-05
 tags:
