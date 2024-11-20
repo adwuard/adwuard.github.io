@@ -1,6 +1,6 @@
 ---
 title: "A Tracker Synthsizer"
-excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/cnc-build/2.jpg'>"
+excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/cnc-build/2.jpg' width='250'>"
 collection: projects
 date: 2024-07-20
 Tags:

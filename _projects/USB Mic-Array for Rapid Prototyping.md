@@ -1,6 +1,6 @@
 ---
 title: "USB Mic-Array for Rapid Prototyping"
-excerpt: "Multi-Channel USB Mic for faster and easier hardware and algorithm prototyping.<br/><img src='/images/projects/mic_array/1.jpg'>"
+excerpt: "Multi-Channel USB Mic for faster and easier hardware and algorithm prototyping.<br/><img src='/images/projects/mic_array/1.jpg' width='350'>"
 collection: projects
 date: 2023-08-24
 tags:
