@@ -51,7 +51,7 @@ This video demonstrates multiple hardware oscillators being triggered by MIDI ev
 - Hardware UI controller (screen and mechanical keyboard) for user interactions.
 - Micro-SD card for patch storage.
 ***
-
+<!-- 
 # The Build:
 **PCB Design**  
 <img src="/images/projects/xsynthgo/14.jpg" width="350">  
@@ -61,7 +61,7 @@ This video demonstrates multiple hardware oscillators being triggered by MIDI ev
 
 **Pick and place and reflow oven**  
 <img src="/images/projects/xsynthgo/13.jpg" width="350">
-<img src="/images/projects/xsynthgo/11.jpg" width="350">
+<img src="/images/projects/xsynthgo/11.jpg" width="350"> -->
 
 **FPGA Driving Codec: Hardware Generated Oscillator**  
 <img src="/images/projects/xsynthgo/2.jpg" width="350">
