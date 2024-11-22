@@ -1,6 +1,6 @@
 ---
 title: "A Tracker Synthsizer"
-excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/cnc-build/2.jpg' width='250'>"
+excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/render/2.jpg' width='250' style='margin-right: 10px;'><img src='/images/projects/trackerkb/cnc-build/2.jpg' width='250'>"
 collection: projects
 date: 2024-07-20
 Tags:
@@ -33,12 +33,12 @@ Small batch custom build. Limited quantity now available and ready to ship!
 
 ---
 
-
 # Overview
 This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard.
 
 <div style="display: flex; flex-direction: row; margin-top: 20px;">
-  <img src="/images/projects/trackerkb/render/1.jpg" style="width:75%;">
+  <img src="/images/projects/trackerkb/render/2.jpg" style="width:50%; margin-right: 10px;">
+  <img src="/images/projects/trackerkb/render/1.jpg" style="width:50%;">
 </div>
 
 # Features
@@ -53,9 +53,10 @@ This is a slightly over-engineered tracker keyboard that integrates both Teensy4
 <img src="/images/projects/trackerkb/system diagram.jpg" width="550">
 
 ## Electronics Build Guide
-Layer View          |  PCB (Front) |  PCB (Back)
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="/images/projects/trackerkb/pcb-thumbnails/pcb-back-view-revc.jpg" width="350"> | <img src="/images/projects/trackerkb/pcb-thumbnails/pcb-front-view-revc.jpg" width="350"> | <img src="/images/projects/trackerkb/pcb-thumbnails/pcb-layers-view-revc.jpg" width="350">
+
+PCB (Back)          |  PCB (Front) |  Layer View
+:-------------------------:|:-------------------------:|:-------------------------:  
+<img src="/images/projects/trackerkb/pcb-thumbnails/pcb-layers-view-revc.jpg" width="250"> | <img src="/images/projects/trackerkb/pcb-thumbnails/pcb-front-view-revc.jpg" width="250"> | <img src="/images/projects/trackerkb/pcb-thumbnails/pcb-back-view-revc.jpg" width="250">
 
 PCB manufacture requirements: 
 - Layers: `2-Layers`
@@ -141,7 +142,8 @@ This 3D printed design is nearly identical to the CNC version but optimized for 
 
 How to assemble?
 - The hole size on the bottom case is slightly smaller, so screw taps will be created when screwing in the screws.
-```
+
+``` txt
 ==== Print settings ==== 
 - PLA or ABS filament  
 - 25% infill  
@@ -155,7 +157,7 @@ How to assemble?
 ### Slicer Build Plate
 <img src="/images/projects/trackerkb/3d-print-build/3d-printing-plate.jpg" width="350"> 
 
-### Improving Thermal Performance
+### Improving Thermal Performance on Plastic Casing
 While the Teensy operates safely with passive cooling, adding additional heat spreaders can further enhance thermal performance.
 
 Here are two additional recommendations that could improve thermal:
