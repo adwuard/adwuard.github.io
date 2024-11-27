@@ -3,6 +3,7 @@ title: "E-Paper Display for arXiv Papers"
 excerpt: "Build a Raspberry Pi-powered e-paper display to showcase the latest arXiv papers.<br/><img src='/images/projects/arXivDisplay/2.jpg' width='320'>"
 collection: projects
 date: 2023-05-13
+minute_read: 3
 tags:
   - DIY Electronics
   - E-Paper

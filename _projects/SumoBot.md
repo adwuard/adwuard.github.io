@@ -2,6 +2,7 @@
 title: "Sumo Bot: 2016 ASME 1st Prize Winner"
 excerpt: "Arduino powered sumo robot. Implemented with fuzzy logic.<br/><img src='/images/projects/SumoRobot/5.jpg' width='350'>"
 collection: projects
+minute_read: 1
 date: 2016-05-05
 tags:
   - DIY Electronics

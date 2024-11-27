@@ -2,6 +2,7 @@
 title: "Voron V2.4 3D Printer Build"
 excerpt: "The Voron 3D printer is widely regarded as one of the best open-source 3D printers available, thanks to its high-quality prints, reliability, and innovative design. This document details my build process and the modifications I made to enhance its performance.<br/><img src='/images/projects/VoronBuild/1.jpg' width='250'>"
 collection: projects
+minute_read: 5
 date: 2023-08-13
 tags:
   - Open Source

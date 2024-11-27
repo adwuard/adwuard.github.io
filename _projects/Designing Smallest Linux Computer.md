@@ -3,6 +3,7 @@ title: "Designing the Smallest Linux Computer"
 excerpt: "Explore the journey of designing a compact and efficient Linux computer using the Rockchip RV1126 SoC. This project covers everything from PCB layout to firmware engineering, overcoming challenges in high-speed design, power management, and thermal optimization. <br/><img src='/images/projects/SmallestLinuxComputer/8.jpg' width='350'>"
 collection: projects
 date: 2022-04-09
+minute_read: 7
 tags:
     - DIY Electronics    
     - Hardware System Design
