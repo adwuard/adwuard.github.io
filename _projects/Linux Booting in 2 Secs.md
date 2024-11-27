@@ -24,7 +24,7 @@ tags:
 ![GitHub forks](https://img.shields.io/github/forks/adwuard/rv1106-tracker-screen?style=social&style=for-the-badge)
 
 # **Overview**
-In collaboration with [SoloLinker](https://www.sololinker.com/en/1956.html), with their SoloLinker-A Dev Board, a compact and powerful SoC board. Powered by the [Rockchip RV1106](https://www.rock-chips.com/uploads/pdf/2022.8.26/192/RV1126%20Brief%20Datasheet.pdf) single-core SoC running at 1.2GHz, this board features a small footprint with impressive capabilities. It includes **256MB of integrated DDR memory**, a **0.5Tops AI engine**, and supports **WiFi, camera, USB OTG, and SD card interfaces**. This makes it ideal for small projects requiring these interfaces, offering an excellent power consumption to performance ratio. 
+In collaboration with [SoloLinker](https://www.sololinker.com/en/1956.html), we present the SoloLinker-A Dev Board, a compact and powerful SoC board. Powered by the [Rockchip RV1106](https://www.rock-chips.com/uploads/pdf/2022.8.26/192/RV1126%20Brief%20Datasheet.pdf) single-core SoC running at 1.2GHz, this board features a small footprint with impressive capabilities. It includes **256MB of integrated DDR memory**, **EMMC or SPI Flash for storage**, a **0.5Tops AI engine**, and supports **WiFi, camera, USB OTG, and SD card interfaces**. This makes it ideal for small projects requiring these interfaces, offering an excellent power consumption to performance ratio.
 
 <img src="/images/projects/FastLinuxBoot/3.jpg" style="width:80%">
 
