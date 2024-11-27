@@ -2,6 +2,7 @@
 title: "Linux Booting in 2 Seconds"
 excerpt: "Discover how to achieve a lightning-fast Linux boot time of just 2 seconds. Learn about the techniques used to minimize image size and enhance performance. Perfect for projects requiring quick startup and efficient resource usage. <br/><img src='/images/projects/FastLinuxBoot/3.jpg' width='350'>"
 collection: projects
+minute_read: 8
 date: 2024-07-07
 tags:
   - Linux

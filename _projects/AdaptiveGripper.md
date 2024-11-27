@@ -3,6 +3,7 @@ title: "Adaptive Robot Gripper"
 excerpt: "Designing a flexible finger with silicone material and a torque feedback motor controller. This provides a low-cost robot gripper with a large gripping distance. <br/><img src='/images/projects/AdaptiveGripper/1.jpg' width='350'>"
 collection: projects
 date: 2024-07-24
+minute_read: 6
 tags:
   - Robotics
   - DIY Electronics

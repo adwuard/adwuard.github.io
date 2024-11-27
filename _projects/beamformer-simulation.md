@@ -3,6 +3,7 @@ title: "Design Beamforming Mic Array "
 excerpt: "Discover the fundamentals of designing a beamforming microphone array with this comprehensive guide. Learn how to simulate beamforming using Matlab, explore various microphone array configurations. <br/><img src='/images/projects/beamforming/1.png' width='350'>"
 collection: projects
 date: 2023-06-01
+minute_read: 8
 tags:
     - Mic Array 
     - Beamforming

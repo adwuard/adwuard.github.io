@@ -3,6 +3,7 @@ title: "Designing My Dream Workstation"
 excerpt: "Designing a custom PC case for the Intel NUC 13 Extreme, featuring powerful hardware, compact size, and unique design elements.<br/><img src='/images/projects/CustomWorkstation/1.jpg' width='250'>"
 collection: projects
 date: 2023-06-17
+minute_read: 3
 tags:
   - DIY Projects
   - CAD
