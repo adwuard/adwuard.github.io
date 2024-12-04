@@ -72,6 +72,9 @@ layout: default
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
+
+      {% include utteranc.html %}
+        
     </div>
 
     {% if site.comments.provider and page.comments %}
@@ -93,3 +96,4 @@ layout: default
     </div>
   {% endif %}
 </div>
+
