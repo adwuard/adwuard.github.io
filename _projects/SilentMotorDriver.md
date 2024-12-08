@@ -30,6 +30,13 @@ I then developed this evaluation board dedicated to testing the TMC2209 motor dr
   - **MicroPlyer Interpolation**: This feature allows for up to 256 microsteps per full step, providing extremely smooth motion and high-resolution control. It is beneficial for applications requiring fine positioning and smooth motion control.
 - **Simple On-board Gear Design**: Allows experimentation with gear ratio motion control and dual encoder reading.
 
+
+# Hardware Design
+<img src="/images/projects/TMC2209/2.jpg" width="550">
+<img src="/images/projects/TMC2209/3.jpg" width="550">
+
+
+
 # Software Development
 - **CAN Bus Message Handling**: Implementing CAN bus message handling for simple motor controls such as setting angles, reading angles, zeroing, setting up internal closed-loop PIDs, and triggering homing. This allows for simple command interaction and multi-motor control.
 - **Acceleration Curve Implementation**: Although the TMC2209 offers hardware-level acceleration and deceleration, it doesn't support longer acceleration times. Implementing a good S-curve is critical for SPWM generation to ensure smooth acceleration.
