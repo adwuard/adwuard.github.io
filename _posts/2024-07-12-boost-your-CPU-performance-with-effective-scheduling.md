@@ -12,14 +12,16 @@ tags:
 
 ---
 
-# Problem
+This guide provides techniques to optimize CPU performance on the CPU by adjusting scheduling parameters and thresholds.
+
+## Problem
 Ever wondered how your operating system decides which tasks get CPU time? This process, known as CPU scheduling, is crucial for optimizing system efficiency and resource utilization. By fine-tuning this process, you can significantly enhance your system's performance.
 
 For more insights on understanding CPU scheduling, check out these resources:
 - [CPU Scheduling in Operating Systems](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/)
 - [Scheduling Period](https://www.sciencedirect.com/topics/computer-science/scheduling-period)
 
-# Solution
+## Solution
 In this guide, we'll explore how to improve CPU performance using scheduling techniques on the RK3588 SoC from Rockchip. This SoC features Big and Little Core scheduling, and by adjusting the scheduling period, you can boost overall performance. These methods are applicable to most Linux-based SoCs.
 
 ## CPU Performance Optimization
