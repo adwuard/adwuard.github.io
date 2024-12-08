@@ -18,7 +18,7 @@ I’ve been searching for a lightweight and simple release plate for my Leica M1
 So, I decided to take on the challenge of designing a custom release plate for the M11 myself. My goal was to create the thinnest and lightest release plate that can stay on the camera.
 
 ### Solution
-The plate I designed is ultra-light and low profile. It’s 50% thinner than common Arca-Swiss plates, weighing approximately 15g. Additionally, it features an opening for the battery release switch. I hope this design strikes a good balance between tripod use and minimal day-to-day use.
+The custom plate I designed is ultra-light and low profile, making it 50% thinner than standard Arca-Swiss plates and weighing only about 15g. It includes a precise opening for the battery release switch, allowing for easy removal of the battery and SD card without needing to detach the plate. This design aims to provide a perfect balance between convenient tripod use and minimal setup during everyday photography.
 
 ### The Design
 <img src="/images/posts/2024-01-01-custom-camera-release-plate/1.jpg" style="width:80%;">
