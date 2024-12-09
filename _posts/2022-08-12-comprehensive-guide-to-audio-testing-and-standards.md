@@ -1,7 +1,7 @@
 ---
 title: "Comprehensive Guide to Audio Testing, Automation, and Standards"
 excerpt: "Discover essential tips, tools, and industry standards for testing audio/speech systems and evaluating speech quality. Based on my experience with speech audio hardware products, this guide provides valuable insights into overcoming common challenges in audio testing and automation."
-date: 2022-05-10
+date: 2022-08-12
 comments: true
 tags:
     - Audio Testing
