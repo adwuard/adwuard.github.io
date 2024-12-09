@@ -16,20 +16,24 @@ tags:
 ---
 When I was working on speech audio hardware products, I came across the challenge of testing audio and having metrics on the speech processing DSP. Here are some insights and tips based on my experience.
 
-> If you want to improve it, measure it. 
-
 ## Challenges in Audio Algorithm and Hardware Development
 
-Working in speech algorithm and hardware development has been a fascinating and some time frustrating journey, but it comes with its fair share of challenges. Ensuring that audio quality meets industry standards while being practical for real-world applications. Let me share some of the obstacles I've faced and how I've managed to overcome them.
+Working in speech algorithm and hardware development has both fascinating and challenging journey. It comes with its fair share of challenges. Ensuring that audio quality meets industry standards while being practical for real-world applications. Let me share some of the obstacles I've faced and how I've managed to overcome them.
 
-### The Struggle with Consistency
-One of the main issues I've encountered is maintaining consistency across different environments. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To tackle this, I set up a variety of testing environments, from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments.
+### The Struggle with Consistency 🎧
+Maintaining consistency across different environments has been one of the main challenges I've faced. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To address this, I set up a variety of testing environments, ranging from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments. Additionally, developing adaptive algorithms that can adjust to these varying conditions has been crucial in ensuring consistent performance across different environments. 
 
-### The Quantify of Metrics
-Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key.
+### The Quantify of Metrics 📊
+Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key. 
 
-### Automation to the Rescue
-Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort.
+### Automation to the Rescue 🤖
+Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort. 
+
+### Constant Learning Process. The NEW A.I. approach 🧠
+AI-driven speech processing techniques are revolutionizing. Using machine learning algorithms for tasks like noise suppression, echo cancellation, and speech enhancement can greatly improve audio system performance. 
+
+### Working on New Hardware Projects 🛠️
+Starting new hardware projects provides hands-on experience and a deeper understanding of audio systems. Whether designing a new microphone array, developing a custom audio analyzer, or creating a portable testing rig, these projects help apply theoretical knowledge to practical scenarios. Documenting projects and sharing findings with the team or community also contributes to the collective knowledge in the field.
 
 > Note: 
 This article assumes that you have already properly designed your hardware, managed hardware noise, optimized hardware audio port enclosure design, and ensured mic port air-tight sealing. 
@@ -47,7 +51,7 @@ Testing an audio system might seem overwhelming at first, but breaking it down i
 3. **Set Up Your Environment**: Create a controlled testing environment to minimize external noise and interference, ensuring accurate and reliable results. Different environments offer varying levels of detail:
     - **Anechoic Chamber**: Provides the highest level of detail by eliminating reflections and external noise, ideal for precise measurements. Costing the most and hardest to gain access to.  
       - <img src="/images/posts/2022-05-10-comprehensive-guide-to-audio-testing-and-standards/2.jpg" style="width:80%;">
-    - **Listening Room**: Simulates real-world conditions while controlling some variables, suitable for subjective listening tests. A meeting room, medium/small office room does the trick.
+    - **Listening Room**: Simulates real-world conditions while controlling some variables, suitable for subjective listening tests. A meeting room, medium/small office room with proper acoustic treatment does the trick.
     - **Small Enclosed Chamber**: A metal-enclosed case with foam-padded inserts. This setup provides a controlled space with some reflections, making it useful for general testing in small spaces.  
       - <img src="/images/posts/2022-05-10-comprehensive-guide-to-audio-testing-and-standards/1.jpg" style="width:80%;">
 
@@ -60,7 +64,7 @@ Testing an audio system might seem overwhelming at first, but breaking it down i
 
 ### For Example:
 ### Testing Microphone Raw Audio
-When testing a new microphone, whether hardware enclosed or standalone, I used an audio analyzer to measure its frequency response, Total Harmonic Distortion (THD), noise, and Signal-to-Noise Ratio (SNR). This helped identify areas where the microphone excelled and where it needed improvement, both at the hardware level and for the microphone itself. This knowledge is crucial for building better Digital Signal Processors (DSPs) for the microphones in use.
+When testing a new microphone, whether hardware enclosed or standalone, I used an audio analyzer to measure its frequency response, Total Harmonic Distortion (THD), noise, and Signal-to-Noise Ratio (SNR). This helped identify areas where the microphone excelled and where it needed improvement, both at the hardware design level and for the microphone raw signal level. This knowledge is crucial for building better Digital Signal Processors (DSPs) for the microphones in use.
 
 ### Testing Microphone Audio System
 When testing an audio system, such as `Mic->Algorithm->Sink`, it is essential to evaluate latency and speech quality metrics for continuous improvement of audio algorithms. At Vibe, we build our audio input systems with microphone arrays and AI-powered noise suppression and echo cancellation. Therefore, it is crucial to test metrics like [Mean Opinion Score (MOS)](https://en.wikipedia.org/wiki/Mean_opinion_score) and [Perceptual Objective Listening Quality Analysis (POLQA)](https://www.polqa.info/). Additionally, newer metrics like Google's [ViSQOL](https://github.com/google/visqol) offer advanced approaches for testing AI systems. Ultimately, the choice of metrics depends on the specific aspects you want to test, as each metric performs differently, with some requiring reference audio and others not, making them best suited for different scenarios.
