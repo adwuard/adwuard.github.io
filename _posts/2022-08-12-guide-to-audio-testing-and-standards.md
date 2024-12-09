@@ -1,5 +1,5 @@
 ---
-title: "Comprehensive Guide to Audio Testing, Automation, and Standards"
+title: "A Guide to Audio Testing, Automation, and Standards"
 excerpt: "Discover essential tips, tools, and industry standards for testing audio/speech systems and evaluating speech quality. Based on my experience with speech audio hardware products, this guide provides valuable insights into overcoming common challenges in audio testing and automation."
 date: 2022-08-12
 comments: true
@@ -50,10 +50,10 @@ Testing an audio system might seem overwhelming at first, but breaking it down i
 
 3. **Set Up Your Environment**: Create a controlled testing environment to minimize external noise and interference, ensuring accurate and reliable results. Different environments offer varying levels of detail:
     - **Anechoic Chamber**: Provides the highest level of detail by eliminating reflections and external noise, ideal for precise measurements. Costing the most and hardest to gain access to.  
-      - <img src="/images/posts/2022-05-10-comprehensive-guide-to-audio-testing-and-standards/2.jpg" style="width:80%;">
+      - <img src="/images/posts/2022-05-10-guide-to-audio-testing-and-standards/2.jpg" style="width:80%;">
     - **Listening Room**: Simulates real-world conditions while controlling some variables, suitable for subjective listening tests. A meeting room, medium/small office room with proper acoustic treatment does the trick.
     - **Small Enclosed Chamber**: A metal-enclosed case with foam-padded inserts. This setup provides a controlled space with some reflections, making it useful for general testing in small spaces.  
-      - <img src="/images/posts/2022-05-10-comprehensive-guide-to-audio-testing-and-standards/1.jpg" style="width:80%;">
+      - <img src="/images/posts/2022-05-10-guide-to-audio-testing-and-standards/1.jpg" style="width:80%;">
 
     - **Uncontrolled Environment**: Testing in an uncontrolled environment can introduce noise and variability, making it less reliable but useful for quick, informal tests.
     - **Software Testing**: Algorithms and scripts can automate up to 80% of the day-to-day testing process, efficiently evaluating speech quality metrics. This allows developers to quickly assess changes on a server. The remaining 20% should still be fundamental hardware testing conducted in a controlled environment.
