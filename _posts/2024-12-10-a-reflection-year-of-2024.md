@@ -76,6 +76,8 @@ Balancing technical expertise with effective leadership is an ongoing journey. I
 - Enhance leadership skills through targeted training and mentorship.
 - Recognize and celebrate the contributions of all team members.
 - Gather feedback from the team regularly to understand their perspectives and improve process.
+
+
 ---
 
 # Conclusion
