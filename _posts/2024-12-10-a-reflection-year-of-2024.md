@@ -18,6 +18,17 @@ Below are some of the highlights of the past year, categorized into several sect
 
 # Achievements at Work
 
+## Prototyping and Innovation
+- Rapidly evaluated software and hardware, trying out new designs and innovations by creating couple prototypes, accelerating the engineering validation process. Drive new innovations forward.
+
+## Software Development
+- Integrated custom audio pipeline with ChromiumOS Audio Service call ADHD/CRAS.
+- AI powered de-noising techniques optimizing speech quality.
+- Implemented metrics logging and visualization of audio performance metrics in production feedback.
+- Implemented hardware drivers, and BSPs(Board Support Package) for projects.
+- Chromium OS firmware engineering and development process.
+- Getting better at USB development, implementing UAC and custom vendor specific protocol.
+
 ## Hardware Development
 - Redesigned hardware architecture and prototyped new EE/ME solutions for two products: a new AI camera now in mass production and another at the EVT stage.
 - Continuously improved product design through multi-domain problem-solving skills.
@@ -27,18 +38,6 @@ Below are some of the highlights of the past year, categorized into several sect
 - Achieved excellent manufacturing production yield rates by introducing audio testing algorithms and custom test rigs. Guarantee the uniformity of built product. 
 - Gained extensive experience in hardware acoustics design and audio testing, resulting in better and more reliable audio products.
 - Achieved Zoom certification for the product, ensuring that both audio and video quality meet industry standards.
-
-## Software Development
-- Developed a new real-time audio software pipeline in an operating system, incorporating AI denoising techniques and optimizing speech quality.
-- Integrated custom audio pipeline with ChromiumOS Audio Service call ADHD/CRAS.
-- Implemented metrics logging and visualization of audio performance metrics in production feedback.
-- Implemented hardware drivers, and BSPs for numerous projects.
-- Chromium OS firmware engineering and development process.
-- USB protocols, implementing UAC and custom vendor specific protocol,
-
-
-## Prototyping and Innovation
-- Rapidly evaluated software and hardware, trying out new designs and innovations by creating couple prototypes, accelerating the engineering validation process. Drive new innovations forward.
 
 ---
 
@@ -76,7 +75,6 @@ Balancing technical expertise with effective leadership is an ongoing journey. I
 - Enhance leadership skills through targeted training and mentorship.
 - Recognize and celebrate the contributions of all team members.
 - Gather feedback from the team regularly to understand their perspectives and improve process.
-
 
 ---
 
