@@ -20,20 +20,27 @@ When I was working on speech audio hardware products, I came across the challeng
 
 Working in speech algorithm and hardware development has both fascinating and challenging journey. It comes with its fair share of challenges. Ensuring that audio quality meets industry standards while being practical for real-world applications. Let me share some of the obstacles I've faced and how I've managed to overcome them.
 
-### The Struggle with Consistency 🎧
-Maintaining consistency across different environments has been one of the main challenges I've faced. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To address this, I set up a variety of testing environments, ranging from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments. Additionally, developing adaptive algorithms that can adjust to these varying conditions has been crucial in ensuring consistent performance across different environments. 
+### The Struggle with Consistency 🤔
+Maintaining consistency across different environments has been one of the main challenges I've faced. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To address this, I set up a variety of testing environments, ranging from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments. Additionally, developing adaptive algorithms that can adjust to these varying conditions has been crucial in ensuring consistent performance across different environments.
 
 ### The Quantify of Metrics 📊
-Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key. 
+Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key.
 
 ### Automation to the Rescue 🤖
-Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort. 
+Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort.
 
-### Constant Learning Process. The NEW A.I. approach 🧠
-AI-driven speech processing techniques are revolutionizing. Using machine learning algorithms for tasks like noise suppression, echo cancellation, and speech enhancement can greatly improve audio system performance. 
+### Constant Learning Process: The New AI Approach 🧠
+At Vibe, we are continuously experimenting with innovative AI techniques for speech noise suppression and echo cancellation. Our focus is on achieving superior performance in dynamic environments, particularly in non-stationary noise cancellation. Testing AI systems differs significantly from traditional audio system testing. We are constantly exploring effective metrics and approaches for analyzing AI-powered DSP systems to ensure optimal performance.
 
-### Working on New Hardware Projects 🛠️
-Starting new hardware projects provides hands-on experience and a deeper understanding of audio systems. Whether designing a new microphone array, developing a custom audio analyzer, or creating a portable testing rig, these projects help apply theoretical knowledge to practical scenarios. Documenting projects and sharing findings with the team or community also contributes to the collective knowledge in the field.
+### Hardware Design Challenges 🛠️
+Designing hardware for audio systems comes with its own set of challenges. Here are some key aspects to consider:
+- **Hardware Acoustics Design**: Ensuring optimal acoustic performance through careful design of the hardware components.
+- **Microphone and Speaker Specifications**: Selecting the right specifications for microphones and speakers to meet the desired audio quality.
+- **Echo Loop of Speaker and Microphones**: Managing the echo loop between speakers and microphones. Prevent direct audio feedback within the product enclosure.
+- **Electronic Noise**: Addressing noise from power sources, LDO/DC-DC converters, and signal interferences that can affect audio quality.
+- **Hardware Enclosure Air-Tight Sealing**: Ensuring the hardware enclosure is properly sealed to prevent air leaks that can degrade audio performance.
+- **Thermal Considerations**: Managing thermal output, as excessive heat can introduce signal noise and affect microphone performance.
+- **Other Noises**: Mitigating noises from other components within the product, such as motor sounds and vibrations from speakers, to maintain audio clarity.
 
 > Note: 
 This article assumes that you have already properly designed your hardware, managed hardware noise, optimized hardware audio port enclosure design, and ensured mic port air-tight sealing. 
@@ -107,57 +114,7 @@ In conclusion, while the journey in audio algorithm and hardware development is 
 
 # Resource
 ## Mega List of Audio Standards I've Collected Over the Years
-Some of these standards are free, while others require purchase. Here is a list I found useful:
-
-### ITU-T G Series
-The ITU-T G series recommendations focus on transmission systems, media, digital systems, and networks. Here are some key recommendations from the G series:
-
-- **ITU-T G.114**: One-way transmission time - Defines acceptable limits for one-way transmission time in voice communication.
-- **ITU-T G.115**: Mean active speech level for announcement and speech synthesis systems - Specifies the mean active speech level for these systems.
-- **ITU-T G.122**: Influence of national systems on stability, talker echo, and listener echo in international connections - Addresses the impact of national systems on echo and stability in international calls.
-- **ITU-T G.131**: Talker echo and its control - Provides guidelines for controlling talker echo.
-- **ITU-T G.160**: Voice enhancement devices - Covers devices that enhance voice quality.
-- **ITU-T G.167**: Acoustic echo controllers - Specifies requirements for devices that control acoustic echo.
-- **ITU-T G.169**: Automatic level control devices - Defines standards for devices that automatically control audio levels.
-- **ITU-T G.711**: Pulse code modulation (PCM) of voice frequencies - Standard for PCM of voice frequencies.
-- **ITU-T G.712**: Transmission performance characteristics of pulse code modulation channels - Specifies performance characteristics for PCM channels.
-
-### ITU-T P Series
-The ITU-T P series recommendations focus on the quality of voice and audio communications. Here are some key recommendations from the P series:
-
-- **ITU-T P.10/G.100**: Vocabulary for performance, quality of service, and quality of experience - Defines terminology for performance and quality.
-- **ITU-T P.50**: Artificial voices - Defines standards for artificial voices used in testing.
-- **ITU-T P.51**: Artificial mouth - Specifies standards for artificial mouths used in testing.
-- **ITU-T P.56**: Objective measurement of active speech level - Defines methods for measuring active speech levels.
-- **ITU-T P.59**: Artificial conversational speech - Defines standards for artificial conversational speech.
-- **ITU-T P.64**: Determination of sensitivity frequency characteristics of local telephone systems - Specifies methods for determining sensitivity frequency characteristics.
-- **ITU-T P.1100**: Narrowband hands-free communication in motor vehicles - Specifies standards for hands-free communication in vehicles.
-- **ITU-T P.501**: Test signals for use in telephony and other speech-based applications - Specifies test signals for telephony.
-- **ITU-T P.502**: Objective test methods for speech communication systems using complex test signals - Defines objective test methods.
-- **ITU-T P.570**: Artificial noise fields under laboratory conditions - Specifies standards for artificial noise fields.
-- **ITU-T P.800**: Methods for subjective determination of transmission quality - Defines subjective methods for determining transmission quality.
-- **ITU-T P.800.1**: Mean opinion score (MOS) terminology - Defines terminology for MOS.
-- **ITU-T P.835**: Subjective test methodology for evaluating speech communication systems - Specifies subjective test methodologies.
-- **ITU-T P.862**: Perceptual evaluation of speech quality (PESQ) - Defines methods for perceptual evaluation of speech quality.
-- **ITU-T P.863**: Perceptual objective listening quality prediction - Specifies methods for predicting listening quality.
-- **ITU-T P.563**: Single-ended method for objective speech quality assessment in narrowband telephony applications - Defines single-ended methods for speech quality assessment.
-
-### ETSI EG and TS Series
-The ETSI (European Telecommunications Standards Institute) EG and TS series focus on standards for speech and multimedia transmission quality.
-
-- **ETSI EG 202 396-1**: Speech and multimedia Transmission Quality (STQ) - Provides guidelines for speech and multimedia transmission quality.
-- **ETSI TS 103 106**: Speech and multimedia Transmission Quality (STQ) - Specifies technical standards for speech and multimedia transmission quality.
-
-### IEEE 269
-The IEEE 269 standard focuses on measuring the electroacoustic performance of communication devices.
-
-- **IEEE 269-2019**: Measuring Electroacoustic Performance of Communication Devices - Specifies methods for measuring the electroacoustic performance of communication devices.
-
-These standards and recommendations provide comprehensive guidelines for ensuring high-quality audio and voice communication systems.
-
-
-## Credits
-The standards listed above are credited to their respective organizations:
+The standards listed below are credited to their respective organizations:
 
 - **ETSI**: European Telecommunications Standards Institute
 - **IEEE**: Institute of Electrical and Electronics Engineers
@@ -165,3 +122,47 @@ The standards listed above are credited to their respective organizations:
 - **TR**: Technical Report
 
 These organizations provide valuable guidelines and standards to ensure quality and consistency in audio and speech transmission.
+
+### ITU-T G Series
+The ITU-T G series recommendations focus on transmission systems, media, digital systems, and networks. Here are some key recommendations from the G series:
+
+- [**ITU-T G.114**](https://www.itu.int/rec/t-rec-G.114): One-way transmission time - Defines acceptable limits for one-way transmission time in voice communication.
+- [**ITU-T G.115**](https://www.itu.int/rec/t-rec-G.115): Mean active speech level for announcement and speech synthesis systems - Specifies the mean active speech level for these systems.
+- [**ITU-T G.122**](https://www.itu.int/rec/t-rec-G.122): Influence of national systems on stability, talker echo, and listener echo in international connections - Addresses the impact of national systems on echo and stability in international calls.
+- [**ITU-T G.131**](https://www.itu.int/rec/t-rec-G.131): Talker echo and its control - Provides guidelines for controlling talker echo.
+- [**ITU-T G.160**](https://www.itu.int/rec/t-rec-G.160): Voice enhancement devices - Covers devices that enhance voice quality.
+- [**ITU-T G.167**](https://www.itu.int/rec/t-rec-G.167): Acoustic echo controllers - Specifies requirements for devices that control acoustic echo.
+- [**ITU-T G.169**](https://www.itu.int/rec/t-rec-G.169): Automatic level control devices - Defines standards for devices that automatically control audio levels.
+- [**ITU-T G.711**](https://www.itu.int/rec/t-rec-G.711): Pulse code modulation (PCM) of voice frequencies - Standard for PCM of voice frequencies.
+- [**ITU-T G.712**](https://www.itu.int/rec/t-rec-G.712): Transmission performance characteristics of pulse code modulation channels - Specifies performance characteristics for PCM channels.
+
+### ITU-T P Series
+The ITU-T P series recommendations focus on the quality of voice and audio communications. Here are some key recommendations from the P series:
+
+- [**ITU-T P.10/G.100**](https://www.itu.int/rec/t-rec-p.10): Vocabulary for performance, quality of service, and quality of experience - Defines terminology for performance and quality.
+- [**ITU-T P.50**](https://www.itu.int/rec/t-rec-p.50): Artificial voices - Defines standards for artificial voices used in testing.
+- [**ITU-T P.51**](https://www.itu.int/rec/t-rec-p.51): Artificial mouth - Specifies standards for artificial mouths used in testing.
+- [**ITU-T P.56**](https://www.itu.int/rec/t-rec-p.56): Objective measurement of active speech level - Defines methods for measuring active speech levels.
+- [**ITU-T P.59**](https://www.itu.int/rec/t-rec-p.59): Artificial conversational speech - Defines standards for artificial conversational speech.
+- [**ITU-T P.64**](https://www.itu.int/rec/t-rec-p.64): Determination of sensitivity frequency characteristics of local telephone systems - Specifies methods for determining sensitivity frequency characteristics.
+- [**ITU-T P.1100**](https://www.itu.int/rec/t-rec-p.1100): Narrowband hands-free communication in motor vehicles - Specifies standards for hands-free communication in vehicles.
+- [**ITU-T P.501**](https://www.itu.int/rec/t-rec-p.501): Test signals for use in telephony and other speech-based applications - Specifies test signals for telephony.
+- [**ITU-T P.502**](https://www.itu.int/rec/t-rec-p.502): Objective test methods for speech communication systems using complex test signals - Defines objective test methods.
+- [**ITU-T P.570**](https://www.itu.int/rec/t-rec-p.570): Artificial noise fields under laboratory conditions - Specifies standards for artificial noise fields.
+- [**ITU-T P.800**](https://www.itu.int/rec/t-rec-p.800): Methods for subjective determination of transmission quality - Defines subjective methods for determining transmission quality.
+- [**ITU-T P.800.1**](https://www.itu.int/rec/t-rec-p.800.1): Mean opinion score (MOS) terminology - Defines terminology for MOS.
+- [**ITU-T P.835**](https://www.itu.int/rec/t-rec-p.835): Subjective test methodology for evaluating speech communication systems - Specifies subjective test methodologies.
+- [**ITU-T P.862**](https://www.itu.int/rec/t-rec-p.862): Perceptual evaluation of speech quality (PESQ) - Defines methods for perceptual evaluation of speech quality.
+- [**ITU-T P.863**](https://www.itu.int/rec/t-rec-p.863): Perceptual objective listening quality prediction - Specifies methods for predicting listening quality.
+- [**ITU-T P.563**](https://www.itu.int/rec/t-rec-p.553): Single-ended method for objective speech quality assessment in narrowband telephony applications - Defines single-ended methods for speech quality assessment.
+
+### ETSI EG and TS Series
+The ETSI (European Telecommunications Standards Institute) EG and TS series focus on standards for speech and multimedia transmission quality.
+
+- [**ETSI EG 202 396-1**](https://www.etsi.org/deliver/etsi_eg/202300_202399/20239601/01.02.02_60/eg_20239601v010202p.pdf): Speech Processing, Transmission and Quality Aspects (STQ)
+- [**ETSI TS 103 106**](https://www.etsi.org/deliver/etsi_ts/103100_103199/103106/01.05.01_60/ts_103106v010501p.pdf): Speech and multimedia Transmission Quality (STQ); Speech quality performance in the presence of background noise
+
+### IEEE Series
+- [**IEEE 269-2019**](https://standards.ieee.org/ieee/269/5674/) The IEEE 269 standard focuses on measuring the electroacoustic performance of communication devices.
+
+
