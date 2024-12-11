@@ -30,7 +30,7 @@ Maintaining a comprehensive set of metrics is crucial for evaluating audio syste
 Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort. 
 
 ### Constant Learning Process: The New AI Approach
-At Vibe, we are constantly experimenting with new, faster, and more robust AI approaches for speech noise suppression and echo cancellation. It excels in non-stationary noise cancellation, providing superior performance in dynamic environments.
+At my line of work, we are continuously experimenting with innovative AI techniques for speech noise suppression and echo cancellation. Our focus is on achieving superior performance in dynamic environments, particularly in non-stationary noise cancellation. Additionally, we are exploring effective metrics for analyzing AI-powered DSP systems to ensure optimal performance.
 
 ### Working on New Hardware Projects
 Starting new hardware projects provides hands-on experience and a deeper understanding of audio systems. Whether designing a new microphone array, developing a custom audio analyzer, or creating a portable testing rig, these projects help apply theoretical knowledge to practical scenarios. Documenting projects and sharing findings with the team or community also contributes to the collective knowledge in the field.
