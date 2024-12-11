@@ -13,6 +13,8 @@ As 2024 comes to a close, I am approaching my five-year anniversary at Vibe as a
 My experience so far has been phenomenal. I feel incredibly fortunate to have a job that I truly enjoy. I am constantly learning new things, solving challenging technical problems, and making innovative projects possible.
 Below are some of the highlights of the past year, categorized into several sections, along with reflections on personal challenges in leadership and plans for moving forward.
 
+This post is quite personal, but I welcome any questions or advice you may have. 😊
+
 ---
 
 # Achievements at Work
@@ -31,7 +33,7 @@ Below are some of the highlights of the past year, categorized into several sect
 - Implemented metrics logging and visualization of audio performance metrics in production feedback.
 - Implemented hardware drivers, and BSPs(Board Support Package) for projects.
 - Chromium OS firmware engineering and development process.
-- Getting better at USB development, implementing UAC and custom vendor specific protocol.
+- Getting better at USB development and debugging, implementing UAC and custom vendor specific protocol.
 
 ## Hardware Development
 - Redesigned hardware architecture and prototyped new EE/ME solutions for two products: a new AI camera now in mass production and another at the EVT stage.
