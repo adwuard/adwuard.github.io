@@ -20,21 +20,21 @@ When I was working on speech audio hardware products, I came across the challeng
 
 Working in speech algorithm and hardware development has both fascinating and challenging journey. It comes with its fair share of challenges. Ensuring that audio quality meets industry standards while being practical for real-world applications. Let me share some of the obstacles I've faced and how I've managed to overcome them.
 
-### The Struggle with Consistency
-Maintaining consistency across different environments has been one of the main challenges I've faced. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To address this, I set up a variety of testing environments, ranging from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments. Additionally, developing adaptive algorithms that can adjust to these varying conditions has been crucial in ensuring consistent performance across different environments. 
+### The Struggle with Consistency 🤔
+Maintaining consistency across different environments has been one of the main challenges I've faced. Audio systems can behave differently in a controlled lab setting compared to a noisy office or a bustling street. To address this, I set up a variety of testing environments, ranging from anechoic chambers to more realistic settings like meeting rooms. This approach has helped me understand how my system performs in different scenarios and make necessary adjustments. Additionally, developing adaptive algorithms that can adjust to these varying conditions has been crucial in ensuring consistent performance across different environments.
 
-### The Quantify of Metrics
-Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key. 
+### The Quantify of Metrics 📊
+Maintaining a comprehensive set of metrics is crucial for evaluating audio systems, but it can be overwhelming at first. I found that focusing on the most relevant metrics for my goals made a significant difference. For instance, when prioritizing speech clarity, I concentrated on metrics like MOS and POLQA. By narrowing my focus, I made the process more manageable and effective. Clearly defining my goals and knowing what I wanted to improve was key.
 
-### Automation to the Rescue
-Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort. 
+### Automation to the Rescue 🤖
+Manual testing can be incredibly time-consuming and prone to errors. This is where automation has been a game-changer for me. By integrating CI/CD pipelines with automated audio tests, I've streamlined the testing process. Setting up CI to run tests automatically whenever there's a code change has ensured that any issues are caught early, saving me a lot of time and effort.
 
-### Constant Learning Process: The New AI Approach
+### Constant Learning Process: The New AI Approach 🧠
 At Vibe, we are continuously experimenting with innovative AI techniques for speech noise suppression and echo cancellation. Our focus is on achieving superior performance in dynamic environments, particularly in non-stationary noise cancellation. Testing AI systems differs significantly from traditional audio system testing. We are constantly exploring effective metrics and approaches for analyzing AI-powered DSP systems to ensure optimal performance.
 
-### Hardware Design Challenges
+### Hardware Design Challenges 🛠️
 Designing hardware for audio systems comes with its own set of challenges. Here are some key aspects to consider:
-- **Hardware Acoustics Design**: Ensuring optimal acoustic performance through careful design of the hardware components. 
+- **Hardware Acoustics Design**: Ensuring optimal acoustic performance through careful design of the hardware components.
 - **Microphone and Speaker Specifications**: Selecting the right specifications for microphones and speakers to meet the desired audio quality.
 - **Echo Loop of Speaker and Microphones**: Managing the echo loop between speakers and microphones. Prevent direct audio feedback within the product enclosure.
 - **Electronic Noise**: Addressing noise from power sources, LDO/DC-DC converters, and signal interferences that can affect audio quality.
