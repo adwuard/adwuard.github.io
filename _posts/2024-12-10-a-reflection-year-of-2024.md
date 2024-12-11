@@ -1,6 +1,6 @@
 ---
 title: 'A Reflection on My 2024'
-date: 2024-12-30
+date: 2024-12-10
 comments: true
 tags:
     - Personal Development
@@ -16,6 +16,11 @@ Below are some of the highlights of the past year, categorized into several sect
 ---
 
 # Achievements at Work
+
+## People
+- Establishing a new engineering team for a new project. Expanded the team's skill set and diversity through strategic hiring.
+- Developed a personalized mentorship approach to support and guide new team members.
+- Achieved a high retention rate among new hires, building a positive and engaging team environment. 
 
 ## Prototyping and Innovation
 - Rapidly evaluated software and hardware, trying out new designs and innovations by creating couple prototypes, accelerating the engineering validation process. Drive new innovations forward.
@@ -51,37 +56,29 @@ Below are some of the highlights of the past year, categorized into several sect
 - Began blogging about my journey, sharing insights and experiences with the broader community.
 - Access to better production and manufacturing resources to bring any idea to life, including a PCB fabrication house for low-quantity production, Industrial SLS 3D printers, CNC machines (4-5 axis), high-power laser cutters, and aluminum extrusions.
 
-## People
-- Establishing a new engineering team for a new project. Expanded the team's skill set and diversity through strategic hiring.
-- Developed a personalized mentorship approach to support and guide new team members.
-- Achieved a high retention rate among new hires, building a positive and engaging team environment. 
-
 ---
 
 # Reflection on Work-Life Balance
 People often ask how I manage to excel at work while also dedicating time to personal development and projects. Here are some key insights and areas I am continuously improving:
 
-## Find What You Love
+### Find What You Love
 - Treat your work like a hobby. When you enjoy what you do, it doesn't feel like a chore. This mindset applies to my off-work projects as well. I am truly fortunate to have found a job that I love.
-- 
-## Managing Stress and Burnout
+
+### Managing Stress and Burnout
 Recently, I have experienced more stress and burnout due to increased responsibilities and projects. I am actively working on finding a better work-life balance and managing myself more effectively:
 - Prioritizing rest has become increasingly important. Adequate rest often leads to clearer thinking and better problem-solving.
 - Regular exercise is essential for maintaining both work performance and a healthy body. It helps me stay energized and focused.
-- I value my work a lot and always strive to give my best. However, I recently realized that no one has ever complained about me "not working hard or good enough". My boss, CEO also advised me to prioritize my health, emphasizing that it is more important. This made me understand that I may have been prioritizing work too much. There is always an endless amount of work. **Identify the most important tasks, focus on those**, pick the most improtant 20% tasks from the 80%. Focus on those. And automate processes whenever possible to improve the process and efficiency.
-
+- I value my work a lot and always strive to give my best. However, I recently realized that no one has ever complained about me "not working hard or good enough". My boss, CEO also advised me to prioritize my health, emphasizing that it is more important. This made me understand that I may have been prioritizing work too much. There is always an endless amount of work. **Identify the most important tasks, focus on those**, pick the most improtant 20% tasks. Focus on those. And automate processes whenever possible to improve the process and efficiency.
 
 ---
 
 # Reflections on Leadership
-Over the past five years, I have dedicated myself to becoming a better technical leader. While my technical skills have grown significantly, I recognize that my leadership abilities must evolve as my team continues to expand. Managing a growing team requires new strategies and approaches.
+Over the past few years, I have dedicated myself to becoming a better technical engineer, but less being a better leader. While my technical skills have grown significantly, I recognize that my leadership abilities must evolve as my team continues to expand. Managing a growing team requires new strategies and approaches. Balancing technical expertise with effective leadership is an ongoing journey. I am committed to continuous improvement and finding my unique leadership style.
 
-Balancing technical expertise with effective leadership is an ongoing journey. I am committed to continuous improvement and finding my unique leadership style.
-
-## Future Goals
+### Future Goals
 ### Company Level
 - Refine the creative process for building innovative products by collaborating on strategic planning and decision-making to drive team success.
-    - Develop a collective decision-making process that involves each engineer and clarifies the "why" behind our actions.
+    - By develop a collective decision-making process that involves each engineer and clarifies the "why" behind our actions.
 - Foster an inclusive environment where team members feel comfortable voicing their ideas and concerns.
 - Enhance strategic thinking to strengthen new product ideas.
 
