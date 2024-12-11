@@ -12,6 +12,7 @@ As 2024 comes to a close, I am approaching my five-year anniversary at Vibe as a
 
 My experience so far has been phenomenal. I feel incredibly fortunate to have a job that I truly enjoy. I am constantly learning new things, solving challenging technical problems, and making innovative projects possible.
 Below are some of the highlights of the past year, categorized into several sections, along with reflections on personal challenges in leadership and plans for moving forward.
+
 ---
 
 # Achievements at Work
