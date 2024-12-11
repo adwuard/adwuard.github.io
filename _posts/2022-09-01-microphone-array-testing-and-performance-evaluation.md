@@ -17,6 +17,15 @@ tags:
 
 Hey folks! If you're into smart devices, you know how crucial microphones and microphone arrays are for wake-up and recognition features. This guide is here to help you evaluate microphone arrays performance. We'll cover everything from measurement methods to key metrics for both individual mics and arrays, all aimed at boosting your product design and algorithm performance.
 
+
+After reading my previous post, you will understand how to set up the environment and adhere to industry standards for testing.
+[A Guide to Audio Testing, Automation, and Standards](/guide-to-audio-testing-and-standards/)
+
+--- 
+
+> This guide will provide hands-on testing with a Mic-Array System.
+
+
 Microphone arrays are everywhere – in robots, TVs, air conditioners, and smart speakers. This guide focus on the testing enclosed product device.
 
 - The cavity affects both the array and individual mics. Start by measuring individual mic performance, including sensitivity, frequency response, distortion, noise floor, and cavity sealing.
@@ -95,7 +104,7 @@ Test mic with product enclosure and acoustic cavity.
 Play a logarithmic sweep signal from 20 to 20kHz and measure the mic's output sound pressure level. Calculate the frequency response curve and compare it with the standard curve to ensure it meets the required specifications.
 
 
-### Board only Microphone Frequency Response
+### PCB Board only Microphone Frequency Response
 
 If the whole device mic frequency response doesn't meet the standard, remove the acoustic cavity and measure the bare board mic's frequency response.
 
@@ -147,6 +156,10 @@ Play white noise echo and calculate the phase difference or delay between the MI
 # Additional Tests to Consider
 As AI systems become more complex, it's important to understand how AI module performance relates to raw signal performance. You may want to create custom test cases to gain a better understanding of the relationship between raw acoustic performance and AI performance.
 
+### AI Speech Enhancement
+
+Test the AI's ability to enhance speech by comparing raw audio input to AI-enhanced audio output. Measure algorithm latency and evaluate performance using real speech signals, MOS (Mean Opinion Score), and POLQA (Perceptual Objective Listening Quality Analysis) scores.
+
 ### Sound Source Localization Test (DOA)
 
 Stand at various positions or play white noise within the array's range. Use a localization demo to calculate and provide the localization trend and localization output.
@@ -155,9 +168,6 @@ Stand at various positions or play white noise within the array's range. Use a l
 
 Play white noise or sweep signals through the device's speaker. Obtain the microphone and reference channel outputs and use an AEC demo to provide the echo cancellation effect and convergence curve.
 
-### AI Speech Enhancement
-
-Test the AI's ability to enhance speech by comparing raw audio input to AI-enhanced audio output. Measure algorithm latency and evaluate performance using real speech signals, MOS (Mean Opinion Score), and POLQA (Perceptual Objective Listening Quality Analysis) scores.
 
 ### Beamforming (BF)
 
