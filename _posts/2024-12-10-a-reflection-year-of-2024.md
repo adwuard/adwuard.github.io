@@ -19,11 +19,6 @@ Below are some of the highlights of the past year, categorized into several sect
 ## Prototyping and Innovation
 - Rapidly evaluated software and hardware, trying out new designs and innovations by creating couple prototypes, accelerating the engineering validation process. Drive new innovations forward.
 
-## People
-- Establishing a new engineering team for a new project. Expanded the team's skill set and diversity through strategic hiring.
-- Developed a personalized mentorship approach to support and guide new team members.
-- Achieved a high retention rate among new hires, building a positive and engaging team environment. 
-
 ## Software Development
 - Integrated custom audio pipeline with ChromiumOS Audio Service call ADHD/CRAS.
 - AI powered de-noising techniques optimizing speech quality.
@@ -54,6 +49,11 @@ Below are some of the highlights of the past year, categorized into several sect
 - Established "Ed's Lab" and online shop for creating engaging fun weekend projects.
 - Began blogging about my journey, sharing insights and experiences with the broader community.
 - Access to better production and manufacturing resources to bring any idea to life, including a PCB fabrication house for low-quantity production, Industrial SLS 3D printers, CNC machines (4-5 axis), high-power laser cutters, and aluminum extrusions.
+
+## People
+- Establishing a new engineering team for a new project. Expanded the team's skill set and diversity through strategic hiring.
+- Developed a personalized mentorship approach to support and guide new team members.
+- Achieved a high retention rate among new hires, building a positive and engaging team environment. 
 
 ---
 
