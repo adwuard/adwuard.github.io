@@ -70,7 +70,7 @@ People often ask how I manage to excel at work while also dedicating time to per
 Recently, I have experienced more stress and burnout due to increased responsibilities and projects. I am actively working on finding a better work-life balance and managing myself more effectively:
 - Prioritizing rest has become increasingly important. Adequate rest often leads to clearer thinking and better problem-solving.
 - Regular exercise is essential for maintaining both work performance and a healthy body. It helps me stay energized and focused.
-- I value my work a lot and always strive to give my best. However, I recently realized that no one has ever complained about me "not working hard or good enough". My boss, CEO also advised me to prioritize my health, emphasizing that it is more important. This made me understand that I may have been prioritizing work too much. There is always an endless amount of work. **Identify the most important tasks, focus on those**, pick the most improtant 20% tasks. Focus on those. And automate processes whenever possible to improve the process and efficiency.
+- I value my work a lot and always strive to give my best. However, I recently realized that no one has ever complained about me "not working hard or good enough". Even my boss, the CEO, has encouraged me to prioritize my health, emphasizing its importance. This made me understand that I may have been prioritizing work too much. There is always an endless amount of work. **Identify the most important tasks, focus on those**, pick the most improtant 20% tasks. Focus on those. And automate processes whenever possible to improve the process and efficiency.
 
 ---
 
