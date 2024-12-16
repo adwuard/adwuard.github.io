@@ -47,8 +47,8 @@ The default keyboard firmware that comes with the TrackerKB is for the `M8 Web D
 - **1 Paperclip (for shorting the boot pins)**
 
 ## Download Keyboard Firmware
-Both keyboard downloadable UF2 firmware are provided.
-[Keyboard Firmware](https://github.com/adwuard/TrackerKB/tree/master/software/Release/2.0.0)
+Both keyboard downloadable UF2 firmware are provided.  
+[![Keyboard Firmware](https://img.shields.io/badge/Download%20Keyboard%20Firmware-2.0.0-purple?style=for-the-badge)](https://github.com/adwuard/TrackerKB/tree/master/software/Release/2.0.0)
 
 ```
 .
