@@ -13,7 +13,11 @@ tags:
     - ARM
 ---
 
-This is a detail guide, and debug process for my development process of my USB Mic Array Project. Exploring the USB UAC Device Stack of STM32 Processors.
+> This document details the development process and debugging journey of my USB Microphone Array Project. It explores the intricacies of the USB Audio Class (UAC) device 
+stack on STM32 processors.
+
+*** Please note that this documentation is not a structured guide for solving specific problems. Instead, it offers a glimpse into my development process, outlining the challenges and solutions encountered while implementing multi-channel microphone arrays on the STM32 platform.
+
 
 <img src="/images/projects/mic_array/1.jpg" style="width:50%;">
 
