@@ -5,34 +5,22 @@
 # prevent it from being included in the site.
 
 main:
-  # - title: "Publications"
-    # url: /publications/
-
-  # - title: "Talks"
-    # url: /talks/    
-
-  # - title: "Teaching"
-    # url: /teaching/    
-  
   - title: "Portfolio"
     url: /
-    
-  # - title: "Portfolio"
-    # url: /portfolio/
-        
   - title: "Projects"
     url: /projects/
-  
   - title: "Posts"
     url: /year-archive/
-      
-  
   - title: "Shop"
     url: https://edslab.myshopify.com/
     external: true
-  
+  # - title: "Publications"
+    # url: /publications/
+  # - title: "Talks"
+    # url: /talks/    
+  # - title: "Teaching"
+    # url: /teaching/    
   # - title: "CV"
     # url: /cv/
-    
   # - title: "Guide"
     # url: /markdown/
