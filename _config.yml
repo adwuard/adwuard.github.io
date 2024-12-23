@@ -70,7 +70,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : hsuanhanlai
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
@@ -313,6 +313,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
   - jemoji
 
 # Mimic GitHub Pages with --safe
@@ -321,6 +322,7 @@ whitelist:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
   - jemoji
 
 
