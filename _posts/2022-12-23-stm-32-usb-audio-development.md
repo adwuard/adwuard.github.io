@@ -1,7 +1,7 @@
 ---
 title: "USB Multi-Channel Microphone: STM32 USB Stack Development"
 excerpt: "This is a detail guide, and debug process for my development process of my USB Mic Array Project. Exploring the USB UAC Device Stack of STM32 Processors."
-date: 2022-09-01
+date: 2022-12-23
 comments: true
 tags:
     - Audio
