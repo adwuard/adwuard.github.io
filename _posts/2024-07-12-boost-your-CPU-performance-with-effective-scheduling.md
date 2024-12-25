@@ -9,7 +9,9 @@ tags:
     - Kernel
     - RK3588
     - Optimization
-
+header:
+  overlay_image: /images/overlays/white_splash.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 This guide provides techniques to optimize CPU performance on the CPU by adjusting scheduling parameters and thresholds.

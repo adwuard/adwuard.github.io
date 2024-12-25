@@ -1,9 +1,8 @@
 ---
 title: "Adaptive Robot Gripper"
-excerpt: "Designing a flexible finger with silicone material and a torque feedback motor controller. This provides a low-cost robot gripper with a large gripping distance. <br/><img src='/images/projects/AdaptiveGripper/1.jpg' width='350'>"
+excerpt: "Designing a flexible finger with silicone material and a torque feedback motor controller. This provides a low-cost robot gripper with a large gripping distance."
 collection: projects
 date: 2024-07-24
-minute_read: 6
 layout: archive
 tags:
   - Robotics
@@ -15,6 +14,11 @@ tags:
   - Motor Controller
   - STM32
   - Robot Gripper
+header:
+  teaser: /projects/AdaptiveGripper/1.jpg
+  overlay_image: /images/overlays/unsplash/faded_gallery-kao8q__3mr8-unsplash.jpg
+  caption: "Photo credit: [**Faded Gallery @ Unsplash**](https://unsplash.com/@faded_gallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

@@ -1,13 +1,17 @@
 ---
 title: "Designing My Dream Workstation"
-excerpt: "Designing a custom PC case for the Intel NUC 13 Extreme, featuring powerful hardware, compact size, and unique design elements.<br/><img src='/images/projects/CustomWorkstation/1.jpg' width='250'>"
+excerpt: "Designing a custom PC case for the Intel NUC 13 Extreme, featuring powerful hardware, compact size, and unique design elements."
 collection: projects
 date: 2023-06-17
-minute_read: 3
 tags:
   - DIY Projects
   - CAD
   - 3D Printing
+header:
+  teaser: /projects/CustomWorkstation/1.jpg
+  overlay_image: /images/overlays/unsplash/faded_gallery-7stSlxNAmfc-unsplash.jpg
+  caption: "Photo credit: [**Faded Gallery @ Unsplash**](https://unsplash.com/@faded_gallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

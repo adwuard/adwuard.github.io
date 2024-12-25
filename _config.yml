@@ -19,19 +19,19 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Hsuan Han Lai 赖宣翰"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "hsuanhanlai.com" # site tagline that appears below site title in masthead
 name                     : "Hsuan Han Lai 赖宣翰"
 description              : "Personal Website"
 url                      : "https://adwuard.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "adwuard/adwuard.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "images/favicon.ico" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+enable_copy_code_button  : true # true, false (default)
+copyright                : "hsuan han lai" # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -105,10 +105,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-analytics-4" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : "G-3V2YJTSGRD" # true, false (default)
 
 
 # Site Author
@@ -126,6 +126,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
+    - label: "Vibe Inc."
+      icon: "fas fa-fw fa-building"
+      url: "https://vibe.us"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -134,10 +137,14 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/adwuard"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/hsuanhanlai"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@hsuanhanlai"
+    
 
 # Site Footer
 footer:
@@ -150,7 +157,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/adwuard"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -159,7 +166,10 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/hsuanhanlai"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@hsuanhanlai"
 
 
 # Reading Files
@@ -232,7 +242,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -311,6 +321,12 @@ compress_html:
     envs: development
 
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -331,3 +347,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects 
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true

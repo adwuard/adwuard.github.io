@@ -1,8 +1,7 @@
 ---
 title: "Sumo Bot: 2016 ASME 1st Prize Winner"
-excerpt: "Arduino powered sumo robot. Implemented with fuzzy logic.<br/><img src='/images/projects/SumoRobot/5.jpg' width='350'>"
+excerpt: "Arduino powered sumo robot. Implemented with fuzzy logic."
 collection: projects
-minute_read: 1
 date: 2016-05-05
 tags:
   - DIY Electronics
@@ -10,6 +9,11 @@ tags:
   - Robotics
   - Arduino
   - Competition
+header:
+  teaser: /projects/SumoRobot/5.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-7KZGGu1kq04-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

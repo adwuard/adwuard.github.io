@@ -1,11 +1,27 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "All posts"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
+
+<ul class="taxonomy__index">
+  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr class="solid" style="border-top: 3px solid #bbb;">
+
+<h3>Latest:</h3>
+
 
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}

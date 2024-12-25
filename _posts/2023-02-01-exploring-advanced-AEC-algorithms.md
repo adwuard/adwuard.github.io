@@ -8,6 +8,9 @@ tags:
     - Signal Processing
     - AEC
     - Beamforming
+header:
+  overlay_image: /images/overlays/white_splash.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 After researching various echo reduction (AEC) approaches, I have concluded that several common AEC methods can be effectively implemented using discrete signal processing techniques.
 

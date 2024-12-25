@@ -5,6 +5,9 @@ comments: true
 tags:
     - Personal Development
     - Communication
+header:
+  overlay_image: /images/overlays/white_splash.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 After diving into the fascinating article "[Harnessing the Science of Persuasion](https://hbr.org/2001/10/harnessing-the-science-of-persuasion)" I couldn't help but think about how these principles play out in my life as a software and hardware engineer. Persuasion isn't just for managers or salespeople; I think is an essential skill to have when working with people.

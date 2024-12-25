@@ -1,11 +1,14 @@
 ---
 title: 'A Reflection on My 2024'
 date: 2024-12-10
-comments: true
 tags:
     - Personal Development
     - Reflection
     - Personal
+header:
+  overlay_image: /images/overlays/unsplash/annie-spratt-P23GjWNAuaI-unsplash.jpg
+  caption: "Photo credit: [**Annie Spratt @ Unsplash**](https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
 ---
 Wishing everyone a Merry Christmas and a joyful holiday season!  
 As 2024 comes to a close, I am approaching my five-year anniversary at Vibe as a Product Engineer in Innovation and Products. This period has marked a significant transition for me, as I have taken on increasing responsibilities in leading a growing engineering team.

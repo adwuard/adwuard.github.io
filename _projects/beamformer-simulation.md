@@ -1,9 +1,8 @@
 ---
 title: "Design Beamforming Mic Array "
-excerpt: "Discover the fundamentals of designing a beamforming microphone array with this comprehensive guide. Learn how to simulate beamforming using Matlab, explore various microphone array configurations. <br/><img src='/images/projects/beamforming/1.png' width='350'>"
+excerpt: "Discover the fundamentals of designing a beamforming microphone array with this comprehensive guide. Learn how to simulate beamforming using Matlab, explore various microphone array configurations."
 collection: projects
 date: 2023-06-01
-minute_read: 8
 tags:
     - Mic Array 
     - Beamforming
@@ -13,6 +12,11 @@ tags:
     - DSP
     - Signal Processing
     - Resource
+header:
+  teaser: /projects/beamforming/1.png
+  overlay_image: /images/overlays/unsplash/faded_gallery-deT70U8v4os-unsplash.jpg
+  caption: "Photo credit: [**Faded Gallery @ Unsplash**](https://unsplash.com/@faded_gallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 If you're just diving into the world of mic array [beamforming](https://en.wikipedia.org/wiki/Beamforming) and want to learn how to simulate it using Matlab, you're in the right place! 

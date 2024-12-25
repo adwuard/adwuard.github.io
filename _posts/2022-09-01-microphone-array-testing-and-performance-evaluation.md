@@ -13,6 +13,9 @@ tags:
     - Algorithm
     - Audio Lab
     - Microphone Array
+header:
+  overlay_image: /images/overlays/white_splash.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 Hey folks! If you're into smart devices, you know how crucial microphones and microphone arrays are for wake-up and recognition features. This guide is here to help you evaluate microphone arrays performance. We'll cover everything from measurement methods to key metrics for both individual mics and arrays, all aimed at boosting your product design and algorithm performance.

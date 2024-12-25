@@ -1,9 +1,8 @@
 ---
 title: "E-Paper Display for arXiv Papers"
-excerpt: "Build a Raspberry Pi-powered e-paper display to showcase the latest arXiv papers.<br/><img src='/images/projects/arXivDisplay/2.jpg' width='320'>"
+excerpt: "Build a Raspberry Pi-powered e-paper display to showcase the latest arXiv papers."
 collection: projects
 date: 2023-05-13
-minute_read: 3
 tags:
   - DIY Electronics
   - E-Paper
@@ -11,6 +10,11 @@ tags:
   - Zero2
   - DIY Project
   - Data Scraping
+header:
+  teaser: /projects/arXivDisplay/2.jpg
+  overlay_image: /images/overlays/unsplash/faded_gallery-FlEkuKWB0JY-unsplash.jpg
+  caption: "Photo credit: [**Faded Gallery @ Unsplash**](https://unsplash.com/@faded_gallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 # Overview
 Building products with unique displays always adds a touch of magic. From circular displays to monochrome displays from Sharp, and now e-paper displays, each offers unique characteristics and charm when integrated into a project or product. In this project, I aim to explore the capabilities of e-paper displays. While there are numerous weather and time billboard projects, I wanted to create something different—something that requires a low refresh rate and serves an informational purpose.

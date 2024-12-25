@@ -1,6 +1,6 @@
 ---
 title: "AR4 Control and Dynamics: Enhancing Robot Arm Performance"
-excerpt: "Explore the AR4 Control and Dynamics project, featuring custom robot controllers, improved motor control, and simplified wiring. Learn how to build and optimize a robot arm.<br/><img src='/images/projects/6-DOF-AR4/1.jpg' width='250'>"
+excerpt: "Explore the AR4 Control and Dynamics project, featuring custom robot controllers, improved motor control, and simplified wiring. Learn how to build and optimize a robot arm."
 
 collection: projects
 date: 2023-12-06
@@ -13,6 +13,11 @@ tags:
   - DIY Build
   - Open Source
   - CAN Protocol
+header:
+  teaser: /projects/6-DOF-AR4/1.jpg
+  overlay_image: /images/overlays/unsplash/faded_gallery-t4Pj-Tcfeqs-unsplash.jpg
+  caption: "Photo credit: [**Faded Gallery @ Unsplash**](https://unsplash.com/@faded_gallery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

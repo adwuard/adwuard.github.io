@@ -1,6 +1,6 @@
 ---
 title: "An Ultra-Silent Stepper Motor Driver"
-excerpt: "Discover the ultra-silent TMC2209 stepper motor driver, featuring advanced closed-loop control and SPWM algorithms for precise and quiet operation.<br/><img src='/images/projects/TMC2209/1.jpg' width='250'>"
+excerpt: "Discover the ultra-silent TMC2209 stepper motor driver, featuring advanced closed-loop control and SPWM algorithms for precise and quiet operation."
 collection: projects
 date: 2023-08-11
 tags:
@@ -11,6 +11,11 @@ tags:
   - TMC2209
   - Motor Control
   - Embedded Systems
+header:
+  teaser: /projects/TMC2209/1.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-8A7JF0cCUsI-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

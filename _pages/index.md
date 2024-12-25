@@ -1,11 +1,14 @@
 ---
 permalink: /
-title: "Hi, I'm Edward Lai, a Product Engineer Lead."
+layout: archive
+title: "About Me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /home/
+  - /home.html
 ---
+
+> Hi, I'm Hsuan Han Lai, a Product Engineer Lead.
 
 With **5 years of expertise** in product engineering and development processes, I've helped **Vibe Inc.** deliver over **10 complex smart products** from concept to mass production.
 
@@ -22,7 +25,7 @@ Part of my job is taking **product ideas from scratch and turning them into real
 # Vibe Smart Board [55/75/Pro] Series
 The **Vibe Smart Board** is Vibe's flagship product line. It offers an all-in-one whiteboarding experience with a flexible ecosystem, empowering teams to collaborate effectively.
 
-<img src="images/about/desktop_s1.webp" style="height: 350px;" />
+<img src="/images/about/desktop_s1.webp" style="height: 350px;" />
 
 ### Contributions:
 - Designed the **hardware architecture** for the products, creating unique hardware/software integration solutions unlike any competitors.
@@ -38,7 +41,7 @@ Amazon: [link](https://www.amazon.com/Vibe-S1-Interactive-Classroom-Ecosystem/dp
 ---
 # Vibe AI Camera
 
-<img src="images/about/vibe-camera.png" style="height: 250px;"/>
+<img src="/images/about/vibe-camera.png" style="height: 250px;"/>
 
 This one really tiny, but mighty and powerful camera. The camera has **4K images Sony image sensor** and **6 omni-directional microphone array**. Video and audio are both processed and enhanced with onboard **2Tops A.I. NPU**. Aiming to provide a whole new experience with video conferencing and remote collaboration. Hardware is also **Zoom Certified**, greatening performance and meeting the standards.
 
@@ -57,7 +60,7 @@ This one really tiny, but mighty and powerful camera. The camera has **4K images
 ---
 # Voice Products 
 
-<img src="images/about/c1a-audio.png" style="height: 250px;" />
+<img src="/images/about/c1a-audio.png" style="height: 250px;" />
 
 Developing **speech processing algorithms** for enhanced audio experiences in meeting rooms.
 
@@ -88,7 +91,7 @@ We're tackling challenging problems like:
 ---
 # Vibe Tap
 <div style="display: flex; gap: 10px;">
-  <img src="images/about/vibe-tap.webp" style="height: 250px;" /><img src="images/about/vibe-tap-casting.webp" style="height: 250px;" />
+  <img src="/images/about/vibe-tap.webp" style="height: 250px;" /><img src="/images/about/vibe-tap-casting.webp" style="height: 250px;" />
 </div>
 
 **Vibe Tap** is a wireless casting device that simplifies screen sharing from any device you bring to a meeting. It also offers **touch-back functionality**, allowing you to interact with your PC directly from the whiteboard.
@@ -105,7 +108,7 @@ We're tackling challenging problems like:
 ---
 # Vibe OS (Chromium OS)
 
-<img src="images/about/chromiumos.png" style="height: 100px;" />
+<img src="/images/about/chromiumos.png" style="height: 100px;" />
 
 At Vibe, we build our operating system on Google's **ChromiumOS**. It offers the excellent sandbox security that Chromium is well known for. We manage a distribution optimized for a whiteboard-ing experience called **Vibe OS**. Our hardware is deeply integrated into the system, providing a seamless experience between the OS and hardware.
 

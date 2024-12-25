@@ -1,8 +1,7 @@
 ---
 title: "Linux Booting in 2 Seconds"
-excerpt: "Discover how to achieve a lightning-fast Linux boot time of just 2 seconds. Learn about the techniques used to minimize image size and enhance performance. Perfect for projects requiring quick startup and efficient resource usage. <br/><img src='/images/projects/FastLinuxBoot/3.jpg' width='350'>"
+excerpt: "Discover how to achieve a lightning-fast Linux boot time of just 2 seconds. Learn about the techniques used to minimize image size and enhance performance. Perfect for projects requiring quick startup and efficient resource usage."
 collection: projects
-minute_read: 8
 date: 2024-07-07
 tags:
   - Linux
@@ -17,6 +16,11 @@ tags:
   - DIY Projects
   - DIY Electronics
   - Embedded Systems
+header:
+  teaser: /projects/FastLinuxBoot/3.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-k9rDbQ7vkek-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 ## Source Code

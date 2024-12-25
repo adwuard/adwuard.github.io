@@ -1,8 +1,7 @@
 ---
 title: "USB Mic-Array for Rapid Prototyping"
-excerpt: "Discover how a modular USB mic array can streamline the development of audio hardware and algorithms. Ideal for rapid prototyping with low-latency audio streaming and flexible design options.<br/><img src='/images/projects/mic_array/1.jpg' width='350'>"
+excerpt: "Discover how a modular USB mic array can streamline the development of audio hardware and algorithms. Ideal for rapid prototyping with low-latency audio streaming and flexible design options."
 collection: projects
-minute_read: 10
 date: 2023-08-24
 tags:
   - Speech Processing
@@ -11,7 +10,12 @@ tags:
   - USB Development
   - USB UAC 1.0
   - STM32
-  - Low-Latency Audi
+  - Low-Latency Audio
+header:
+  teaser: /projects/mic_array/1.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-D7AuHpLxLPA-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

@@ -1,8 +1,7 @@
 ---
 title: "Voron V2.4 3D Printer Build"
-excerpt: "The Voron 3D printer is widely regarded as one of the best open-source 3D printers available, thanks to its high-quality prints, reliability, and innovative design. This document details my build process and the modifications I made to enhance its performance.<br/><img src='/images/projects/VoronBuild/1.jpg' width='250'>"
+excerpt: "The Voron 3D printer is widely regarded as one of the best open-source 3D printers available, thanks to its high-quality prints, reliability, and innovative design. This document details my build process and the modifications I made to enhance its performance."
 collection: projects
-minute_read: 5
 date: 2023-08-13
 tags:
   - Open Source
@@ -11,6 +10,11 @@ tags:
   - VORON
   - Klipper
   - DIY Project
+header:
+  teaser: /projects/VoronBuild/1.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-4PfCuLr8GOw-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

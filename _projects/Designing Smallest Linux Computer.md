@@ -1,6 +1,6 @@
 ---
 title: "Designing the Smallest Linux Computer"
-excerpt: "Explore the journey of designing a compact and efficient Linux computer using the Rockchip RV1126 SoC. This project covers everything from PCB layout to firmware engineering, overcoming challenges in high-speed design, power management, and thermal optimization. <br/><img src='/images/projects/SmallestLinuxComputer/8.jpg' width='350'>"
+excerpt: "Explore the journey of designing a compact and efficient Linux computer using the Rockchip RV1126 SoC. This project covers everything from PCB layout to firmware engineering, overcoming challenges in high-speed design, power management, and thermal optimization."
 collection: projects
 date: 2022-04-09
 minute_read: 7
@@ -18,6 +18,11 @@ tags:
     - Buildroot
     - Linux
     - Kernel
+header:
+  teaser: /projects/SmallestLinuxComputer/8.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-Zp2_cEp04So-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Overview

@@ -13,7 +13,12 @@ tags:
     - Testing
     - Algorithm
     - AEC
+header:
+  overlay_image: /images/overlays/unsplash/maciej-stachowiak-SuwkatNoMWs-unsplash.jpg
+  caption: "Photo credit: [**Maciej Stachowiak @ Unsplash**](https://unsplash.com/@primobay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
+
 When I was working on speech audio hardware products, I came across the challenge of testing audio and having metrics on the speech processing DSP. Here are some insights and tips based on my experience.
 
 ## Challenges in Audio Algorithm and Hardware Development

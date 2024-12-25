@@ -1,8 +1,7 @@
 ---
 title: "OP Manager"
-excerpt: "A Portable Project and Patch Manager For Teenage Engineering OP-1/OP-Z <br/><img src='/images/projects/op_manager/1.jpg' width='350'>"
+excerpt: "A Portable Project and Patch Manager For Teenage Engineering OP-1/OP-Z"
 collection: projects
-minute_read: 1
 date: 2019-08-26
 tags:
     - ARM SoC
@@ -11,6 +10,11 @@ tags:
     - DIY Electronics
     - Embedded Systems
     - Synthesizers
+header:
+  teaser: /projects/op_manager/1.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-65pyQgphEDY-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 [![GitHub](https://img.shields.io/badge/GitHub-OP_Manager-blue?logo=github)](https://github.com/adwuard/OP_Manager)   

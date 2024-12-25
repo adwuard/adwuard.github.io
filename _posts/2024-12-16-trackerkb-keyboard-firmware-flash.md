@@ -10,6 +10,9 @@ tags:
     - Synthesizer
     - RP2040
     - Open Source Hardware
+header:
+  overlay_image: /images/overlays/white_splash.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 This document will guide you through the process of flashing the keyboard firmware for the TrackerKB.
@@ -47,7 +50,7 @@ The default keyboard firmware that comes with the TrackerKB is for the `M8 Web D
 - **1 Paperclip (for shorting the boot pins)**
 
 ## Download Keyboard Firmware
-Both keyboard downloadable UF2 firmware are provided.  
+Both keyboard downloadable UF2 firmware are provided.   
 [![Keyboard Firmware](https://img.shields.io/badge/Download%20Keyboard%20Firmware-2.0.0-purple?style=for-the-badge)](https://github.com/adwuard/TrackerKB/tree/master/software/Release/2.0.0)
 
 ```
@@ -61,11 +64,11 @@ Both keyboard downloadable UF2 firmware are provided.
 # Steps for Flashing Keyboard Firmware
 
 ## Step 1: Unscrew the Enclosure
-Use the `H2.5 Hex Screwdriver` to unscrew the four screws on the enclosure.
+Use the `H2.5 Hex Screwdriver` to unscrew the four screws on the enclosure.  
 <img src="/images/projects/trackerkb/render/hex_unscrew.png" style="width:40%;">
 
 ## Step 2: Access Raspberry Pi Pico's Loader Mode
-1. Use the paperclip to short the boot pins and **hold it**.  
+1. Use the paperclip to short the boot pins and **hold it**.    
     <img src="/images/projects/trackerkb/boot-pin.png" style="width:40%;">
 2. Connect the USB Cable to the PC.
 3. Release the boot pin (paperclip) shortly after connecting the USB cable.
@@ -73,6 +76,6 @@ Use the `H2.5 Hex Screwdriver` to unscrew the four screws on the enclosure.
 A new disk drive should now be mounted.
 
 ## Step 3: Drag and Drop the Firmware to the Disk
-Simply **drag and drop** the new firmware file to the mounted disk. The drive will then unmount itself and the device will boot with the new firmware.  
+Simply **drag and drop** the new firmware file to the mounted disk. The drive will then unmount itself and the device will boot with the new firmware.    
 <img src="/images/projects/trackerkb/disk.png" style="width:80%;">
 

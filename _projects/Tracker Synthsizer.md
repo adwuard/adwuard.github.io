@@ -1,8 +1,7 @@
 ---
 title: "A Tracker Synthsizer"
-excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard. <br/><img src='/images/projects/trackerkb/render/2.jpg' width='250' style='margin-right: 10px;'><img src='/images/projects/trackerkb/cnc-build/2.jpg' width='250'>"
+excerpt: "Inspired by Dirtyware M8 Tracker Synthsizer. This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard."
 collection: projects
-minute_read: 10
 date: 2024-07-20
 Tags:
   - Synthesizer
@@ -14,6 +13,11 @@ Tags:
   - Music Production
   - Embedded Systems
   - Custom Keyboards
+header:
+  teaser: /projects/trackerkb/render/2.jpg
+  overlay_image: /images/overlays/unsplash/steve-johnson-Yyb10fO2BjQ-unsplash.jpg
+  caption: "Photo credit: [**Steve Johnson @ Unsplash**](https://unsplash.com/@steve_j?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)"  
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
 # Now Open-Sourced!
@@ -37,6 +41,7 @@ Small batch custom build. Limited quantity now available and ready to ship!
 # Overview
 This is a slightly over-engineered tracker keyboard that integrates both Teensy4.1 and a keyboard.
 
+<img src="/images/projects/trackerkb/cnc-build/2.jpg" style="width:50%;">
 <div style="display: flex; flex-direction: row; margin-top: 20px;">
   <img src="/images/projects/trackerkb/render/2.jpg" style="width:50%; margin-right: 10px;">
   <img src="/images/projects/trackerkb/render/1.jpg" style="width:50%;">

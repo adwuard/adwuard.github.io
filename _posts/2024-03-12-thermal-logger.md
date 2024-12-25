@@ -2,7 +2,7 @@
 title: 'Thermal and Performance Profiling Your System'
 date: 2024-03-12
 comments: true
-layout: posts
+layout: single
 author_profile: true
 tags:
     - Thermal
@@ -12,10 +12,9 @@ tags:
     - Embeded
     - Hardware
 header:
-  overlay_image: https://images.unsplash.com/photo-1734881368192-b71a88293b78?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  overlay_image: /images/overlays/unsplash/vishnu-mohanan-4D9PHPZ5U_c-unsplash.jpg
+  caption: "Photo credit: [**Vishnu Mohanan @ Unsplash**](https://unsplash.com/@vishnumaiea)"  
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-
-
 ---
 
 
