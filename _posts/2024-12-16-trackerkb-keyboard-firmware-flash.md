@@ -13,6 +13,7 @@ tags:
     - Open Source Hardware
 toc: true
 toc_label: "Table of Contents"
+toc_sticky: true
 header:
   overlay_image: /images/overlays/white_splash.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
@@ -31,7 +32,7 @@ There are two main hosts for the M8 Headless:
 
 The default keyboard firmware that comes with the TrackerKB is for the `M8 Web Display`. If you want to use `M8C` as your main host, this guide will show you how to flash new firmware onto the onboard Raspberry Pi Pico.
 
-### Key Mapping Differences Between Two Hosts  
+## Key Mapping Differences Between Two Hosts  
 
 | Key Function | M8C Mapping | M8 Web Display Mapping |
 |--------------|-------------|------------------------|
@@ -44,16 +45,16 @@ The default keyboard firmware that comes with the TrackerKB is for the `M8 Web D
 | Shift        | Left Shift  | Left Shift             |
 | Play         | Space-bar   | Space-bar              |
 
-# Let's Get Started 🚀
+## Let's Get Started 🚀
 
-## Tools Needed
+### Tools Needed
 - 1 PC
 - 1 TrackerKB Unit
 - 1 USB Type-C Cable
 - **1 H2.5 Hex Screwdriver**
 - **1 Paperclip (for shorting the boot pins)**
 
-## Download Keyboard Firmware
+### Download Keyboard Firmware
 Both keyboard downloadable UF2 firmware are provided.   
 [![Keyboard Firmware](https://img.shields.io/badge/Download%20Keyboard%20Firmware-2.0.0-purple?style=for-the-badge)](https://github.com/adwuard/TrackerKB/tree/master/software/Release/2.0.0)
 
@@ -65,13 +66,13 @@ Both keyboard downloadable UF2 firmware are provided.
 
 ---
 
-# Steps for Flashing Keyboard Firmware
+## Steps for Flashing Keyboard Firmware
 
-## Step 1: Unscrew the Enclosure
+### Step 1: Unscrew the Enclosure
 Use the `H2.5 Hex Screwdriver` to unscrew the four screws on the enclosure.  
 <img src="/images/projects/trackerkb/render/hex_unscrew.png" style="width:40%;">
 
-## Step 2: Access Raspberry Pi Pico's Loader Mode
+### Step 2: Access Raspberry Pi Pico's Loader Mode
 1. Use the paperclip to short the boot pins and **hold it**.    
     <img src="/images/projects/trackerkb/boot-pin.png" style="width:40%;">
 2. Connect the USB Cable to the PC.
@@ -79,7 +80,7 @@ Use the `H2.5 Hex Screwdriver` to unscrew the four screws on the enclosure.
 
 A new disk drive should now be mounted.
 
-## Step 3: Drag and Drop the Firmware to the Disk
+### Step 3: Drag and Drop the Firmware to the Disk
 Simply **drag and drop** the new firmware file to the mounted disk. The drive will then unmount itself and the device will boot with the new firmware.    
 <img src="/images/projects/trackerkb/disk.png" style="width:80%;">
 
