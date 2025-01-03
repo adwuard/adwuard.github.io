@@ -11,7 +11,15 @@ toc_label: "Table of Contents"
 toc_sticky: true
 tags:
   - Robotics
-  - Custom Keyboards
+  - AI
+  - Engineering
+  - DIY
+  - ROS2
+  - CAD
+  - FAE
+  - Kinematics
+  - FOC
+  - Robotics Research
 header:
   teaser: /projects/14-DOF-Robot/render/1.jpeg
   overlay_image: /images/projects/14-DOF-Robot/render/2.png
