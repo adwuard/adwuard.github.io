@@ -1,11 +1,12 @@
 ---
 permalink: /
-layout: archive
+layout: single
 title: "About Me"
 author_profile: true
 redirect_from: 
   - /home/
   - /home.html
+copyright: false
 ---
 
 > Hi, I'm Hsuan Han Lai, a Product Engineer Lead.

@@ -22,5 +22,8 @@ layout: default
       <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
+    
+    {% include copyright.html %}
+    {% include sidebar_search.html %}
   </div>
 </div>
