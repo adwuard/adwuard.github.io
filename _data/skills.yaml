@@ -1,0 +1,52 @@
+- name: 💻Software Engineer Keywords
+  keywords:
+      - C/C++
+      - Python
+      - Project Management
+      - Agile Methodologies
+      - Team Leadership
+      - Design Patterns
+      - Buildroot/Gentoo RootFS
+      - Linux Kernel
+      - Firmware Engineering
+      - OS Development
+      - Git
+      - CI/CD
+
+- name: ⚙️Hardware Engineer Keywords
+  keywords:
+      - Product Strategic Planning
+      - Product Lifecycle Management
+      - Risk Analysis
+      - Finate Analysis
+      - DFA/DFM
+      - Creo
+      - Fusion 360
+      - Reverse Engineering
+      - Keyshot
+      - 3D Printing
+      - CNC Machining
+
+- name: ⚡Electronic Engineer Keywords
+  keywords:
+      - High-Speed PCB Design
+      - Circuit Design
+      - Altium Designer
+      - Thermal Management
+      - Miniature Design
+      - ARM/X86 Hardware Design
+
+- name: 🎙️Speech Algorithms Keywords
+  keywords:
+      - Low Latency Audio
+      - Pipeline Design
+      - Speech Algorithms
+      - ALSA
+      - ChromiumOS CRAS
+
+- name: 📚Current Self-Learning Topics
+  keywords:
+    - Machine Learning
+    - FPGA Hardware Acceleration
+    - Robotics
+    
