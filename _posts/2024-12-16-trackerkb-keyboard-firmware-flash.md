@@ -1,5 +1,6 @@
 ---
 title: 'TrackerKB: Guide for flashing keyboard firmware'
+excerpt: "This document will guide you through the process of flashing the keyboard firmware for the TrackerKB."
 date: 2024-12-16
 comments: true
 tags:
@@ -10,11 +11,14 @@ tags:
     - Synthesizer
     - RP2040
     - Open Source Hardware
+toc: true
+toc_label: "Table of Contents"
 header:
   overlay_image: /images/overlays/white_splash.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
+# Overview
 This document will guide you through the process of flashing the keyboard firmware for the TrackerKB.
 
 <img src="/images/projects/trackerkb/render/2024-06-14_0-11-16.png" style="width:80%;">

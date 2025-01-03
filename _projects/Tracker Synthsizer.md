@@ -13,6 +13,8 @@ Tags:
   - Music Production
   - Embedded Systems
   - Custom Keyboards
+toc: true
+toc_label: "Table of Contents"
 header:
   teaser: /projects/trackerkb/render/2.jpg
   overlay_image: /images/overlays/unsplash/steve-johnson-Yyb10fO2BjQ-unsplash.jpg
@@ -95,7 +97,8 @@ All the components are 0603 footprints. The pads are designed with larger pads, 
 
 
 ## PCB Testing
-<img src="/images/projects/trackerkb/build-process/20240620-L1008894.jpg" width="550">  
+
+  <img src="/images/projects/trackerkb/build-process/20240620-L1008894.jpg" width="550">  
 
 🎉🎉🎉 Great job on finishing the PCB assembly. Now we will go through a checklist and testing process to help you get your tracker keyboard up and running!
 
@@ -109,7 +112,7 @@ All the components are 0603 footprints. The pads are designed with larger pads, 
   - A `HID Keyboard` device
 
 
-# Three Versions of Enclosure are Available
+## Three Versions of Enclosure are Available
 ### Option 1: CNC Machined Enclosure
 Best quality and experience. It's a CNC machined enclosure that offers a great hand-held experience.
 ```
@@ -121,7 +124,6 @@ Bill of Materials
 - x1 12mmx12mmx1mm Thermal Pad 
 ```
 
-<!-- <img src="/images/projects/trackerkb/cnc-build/cnc-cases.jpg" width="460"> -->
 
 ### Option 2: Sandwiching Acrylic Enclosure
 A 4-layer acrylic sandwiching approach offers handling weight and durability while keeping the price cheaper compared to CNC. Note that the USB lock threads are not available in this design. The `*.dxf` files of each layer are provided for laser cut manufacturing.
@@ -163,7 +165,7 @@ How to assemble?
 ### Slicer Build Plate
 <img src="/images/projects/trackerkb/3d-print-build/3d-printing-plate.jpg" width="350"> 
 
-### Improving Thermal Performance on Plastic Casing
+## Improving Thermal Performance on Plastic Casing
 While the Teensy operates safely with passive cooling, adding additional heat spreaders can further enhance thermal performance.
 
 Here are two additional recommendations that could improve thermal:
@@ -178,16 +180,16 @@ This validates that cooper heat spread is an effective approach. Ensuring the ca
 
 
 
-# Software Guide
+## Software Guide
 Two firmware flashes are required:
 1. Tracker Headless firmware on Teensy
 2. Keyboard firmware on the RP2040 microcontroller
 
-## 1. Tracker Headless Firmware (Teensy 4.1)
+### 1. Tracker Headless Firmware (Teensy 4.1)
 - Pre-compiled Tracker Headless Firmware and flashing guide can be found here: [Headless Firmware](https://github.com/Dirtywave/M8HeadlessFirmware)
 - This is a pretty standard process and can be done easily.
 
-## 2. Keyboard Firmware (RP2040 MCU)
+### 2. Keyboard Firmware (RP2040 MCU)
 The keyboard is implemented with RP2040 keyboard HID implementation. You wouldn't need to build this source file yourself. Pre-built firmware is available for easy flashing.
 
 ### Keyboard Firmware Highlights
@@ -205,7 +207,8 @@ The keyboard is implemented with RP2040 keyboard HID implementation. You wouldn'
 | Shift                 | Left Shift      |
 | Play                  | Space Bar       |
 
-### Pre-built keyboard firmware can be found here --> [Keyboard Firmware](software/Release)
+** Pre-built keyboard firmware can be found here --> [Keyboard Firmware](software/Release) **
+
 ### Steps for Flashing Keyboard Firmware:
 - Download the single firmware `pico-tracker-keyboard.uf2` file from the [Release](software/Release) Folder.
 - "Press and Hold" the `Boot` button on the RP2040 PCB board, connect the USB to your PC, then release the `Boot` button.
