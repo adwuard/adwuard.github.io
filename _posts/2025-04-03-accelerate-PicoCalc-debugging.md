@@ -54,23 +54,19 @@ With these items in hand, you'll be ready to streamline your debugging and firmw
 ## Soldering the Debug Probe (If Required)
 If you're using the default PicoCalc configuration, which includes the Pico 1H, you're in luck—it comes pre-equipped with a debugging connector, so no soldering is necessary. However, if you're working with other Raspberry Pi Pico models (e.g., Pico 1, 1W, 2, or 2W) that lack a pre-installed connector, you'll need to solder a 3-pin 2.54mm header pin to enable debugging.
 
-<div style="display: flex; gap: 10px;">
-  <img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/1.jpg" style="width: 50%;" alt="Pico 1H with debugging connector">
-  <img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/2.jpg" style="width: 50%;" alt="Soldering a 3-pin header">
-</div>
+<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/1.jpg" style="width: 50%;" alt="Pico 1H with debugging connector">
+<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/2.jpg" style="width: 50%;" alt="Soldering a 3-pin header">
 
 ## Modifying the Casing
 To accommodate the SWD wire, you'll need to make a small modification to the PicoCalc's bottom casing. Use a file or cutting pliers to create a clean, precise hole. This ensures the wire can pass through without compromising the device's aesthetics or functionality.
 
-<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/3.jpg" style="width: 40%; margin-right: 10px;" alt="Casing modification for SWD wire">
+<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/3.jpg" style="width: 80%; margin-right: 10px;" alt="Casing modification for SWD wire">
 
 ## Clean Finish
 Once the modifications are complete, you'll have a neat and functional setup. The SWD wire will exit through the newly created hole, maintaining a tidy appearance while ensuring easy access for debugging.
 
-<div style="display: flex; gap: 10px;">
-  <img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/4.jpg" style="width: 50%;" alt="Cleanly modified PicoCalc casing">
-  <img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/5.jpg" style="width: 50%;" alt="SWD wire exiting through the casing">
-</div>
+<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/4.jpg" style="width: 50%;" alt="Cleanly modified PicoCalc casing">
+<img src="/images/posts/2025-04-03-accelerate-PicoCalc-debugging/5.jpg" style="width: 50%;" alt="SWD wire exiting through the casing">
 
 
 ---
