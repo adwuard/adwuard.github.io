@@ -296,9 +296,13 @@ This UI system:
 
 The UI integrates with the I2C keyboard driver (`i2ckbd.c`) for input and the SPI LCD driver (`lcdspi.c`) for display output, creating a complete user experience for firmware selection.
 
+---
 
-## Demo Time
-<img src="https://github.com/adwuard/Picocalc_SD_Boot/blob/main/img/sd_boot.jpg" style="width: 50%;" alt="SD Bootloader Showcase">
+## Demonstration
+
+Upon powering up, the bootloader initializes and presents a user-friendly directory interface. This GUI allows users to navigate the SD card and select a firmware file. Once a firmware file is chosen, the bootloader seamlessly loads it into memory and transfers control to the newly selected firmware.
+
+<img src="https://raw.githubusercontent.com/adwuard/Picocalc_SD_Boot/main/img/sd_boot.jpg" style="width: 80%;" alt="SD Bootloader Demonstration">
 
 ## Integration of External References
 This bootloader implementation draws inspiration from several key resources:
